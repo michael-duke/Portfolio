@@ -1,42 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portofolio-Mobile-version-skeleton
 
-> Description the project.
+
+> For the first milestone in the process of creating my portfolio website, I will:
+> - Set up a new repository and prepare it for development using best practices (e.g. linters).
+> - Build the first 2 sections of the mobile website using the template you chose in the previous step.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- HTML5, CSS3
+- Linters: Stylelint, Lighthouse, Webhint
 
 ## Authors
 
@@ -45,13 +20,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@michael-duke](https://github.com/michael-duke)
 - Twitter: [@MikeDuke21](https://twitter.com/MikeDuke21)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/https://www.linkedin.com/in/michael-21-duke/)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 
 ## 🤝 Contributing
 
