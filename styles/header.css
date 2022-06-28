@@ -73,6 +73,7 @@ header {
   display: inline-block;
   margin-right: 1.25rem;
 }
+
 .social-media-links svg:hover path {
   fill: #6070ff;
 }
