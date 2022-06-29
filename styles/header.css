@@ -69,7 +69,7 @@ header {
   align-items: center;
 }
 
-.social-media-links svg {
+.social-media-links a {
   display: inline-block;
   margin-right: 1.25rem;
 }
