@@ -1,0 +1,79 @@
+/* Toolbar Section */
+
+.toolbar-containter {
+  height: 3rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  background-color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.625rem 0.75rem;
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  cursor: pointer;
+}
+
+/* Header section */
+
+header {
+  background-image: url(/images/header-background.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 7.125rem 1.5rem;
+  background-color: #fff;
+  border-bottom-left-radius: 5.0625rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  color: #172b4d;
+  margin-bottom: 0.75rem;
+}
+
+.intro {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #344563;
+  margin-bottom: 0.75rem;
+}
+
+.supporting-text {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #7f8cff;
+  margin-bottom: 0.75rem;
+}
+
+.social-media-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-links svg {
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+
+.social-media-links svg:hover path {
+  fill: #6070ff;
+}
