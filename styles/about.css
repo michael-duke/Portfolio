@@ -5,19 +5,77 @@
   border-top-right-radius: 5.0625rem;
   background-color: #fff;
 }
-.about-section .title{
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem; 
+}
+.top-section .title {
   width: 65%;
 }
 .outro {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
-  color: #344563;
-  margin-bottom: 0.75rem;
+  color: #344563; 
 }
-.about-section .supporting-text{
+.top-section .supporting-text {
   margin-bottom: 1rem;
 }
-.about-section .social-media-links{
-  padding: 12px;
+.top-section .social-media-links {
+  padding: 0.75rem;
+}
+
+.skill-label-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  padding-left: 0.75rem;
+  padding-right: 2.5rem;
+  border-bottom: 1px solid  #DFE1E6;
+}
+
+.skill-label-container:first-child {
+  border: none;
+}
+
+.skill-label-container .label {
+  text-transform: capitalize;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style-type: none;
+  padding: 0.75rem;
+}
+
+.skill-list li {
+  background: #F7F7F9;
+  border-radius: 8px;
+  padding: 9px 0px 9.72px 12px;
+}
+
+.skill-list li img {
+  width: 3rem;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.skill-list li span {
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  vertical-align: middle;
+  color: #253858;
+  margin-left: 1rem;
 }

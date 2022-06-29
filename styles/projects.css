@@ -20,23 +20,26 @@
   margin-bottom: 0;
 }
 
-.project-title{
+.project-title {
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.75rem;
   width: 65%;
   color: #172B4D;
 }
+
 .project-details {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  height: 32px;
+  height: 2rem;
 }
+
 .project-details span{
   text-transform: capitalize;
   color:#7A869A;
 }
+
 .project-details .client-label {
   text-transform: uppercase;
   font-weight: 600;
@@ -45,9 +48,9 @@
   color: #344563;
 }
 
-.project-details .middot{
+.project-details .middot {
   color: #C1C7D0;
-  font-size: 80px;
+  font-size: 5rem;
 }
 
 .tags{
@@ -66,17 +69,3 @@
   padding: 0.25rem 0.75rem;
   border-radius: 0.5rem;
 }
-.project-live-btn {
-  text-transform: capitalize;
-  font-weight: 500;
-  font-size: 1.0625rem;
-  line-height: 1.5rem;
-  letter-spacing: 0.03em;
-  width: 7.75rem;
-  padding: 0.75rem;
-  border: 0.0625rem solid #6070FF;
-  border-radius: 0.5rem;
-  color: #396DF2;
-  background-color: transparent;
-  white-space: nowrap;
-} 
