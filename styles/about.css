@@ -1,0 +1,23 @@
+/* About section */
+.about-section {
+  padding: 7.125rem 1.5rem;
+  width: 100vw;
+  border-top-right-radius: 5.0625rem;
+  background-color: #fff;
+}
+.about-section .title{
+  width: 65%;
+}
+.outro {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #344563;
+  margin-bottom: 0.75rem;
+}
+.about-section .supporting-text{
+  margin-bottom: 1rem;
+}
+.about-section .social-media-links{
+  padding: 12px;
+}
