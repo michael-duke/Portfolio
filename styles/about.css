@@ -2,7 +2,7 @@
 .about-section {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;;
+  gap: 1.5rem;
   padding: 7.125rem 1.5rem;
   width: 100vw;
   border-top-right-radius: 5.0625rem;
