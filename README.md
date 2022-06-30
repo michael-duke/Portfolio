@@ -1,11 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portofolio-Mobile-version-skeleton
+# Portofolio- MICHAEL MESFIN
 
 
-> For the first milestone in the process of creating my portfolio website, I will:
+> For this project in the process of creating my portfolio website, I will:
 > - Set up a new repository and prepare it for development using best practices (e.g. linters).
-> - Build the first 2 sections of the mobile website using the template you chose in the previous step.
+> - Build sections of the mobile website using the template you chose in the previous step.
 
 
 ## Built With
@@ -30,12 +30,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
