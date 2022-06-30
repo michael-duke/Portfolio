@@ -29,6 +29,9 @@
 /* Header section */
 
 header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
   background-image: url(/images/header-background.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -44,7 +47,6 @@ header {
   font-weight: 700;
   line-height: 3.25rem;
   color: #172b4d;
-  margin-bottom: 0.75rem;
 }
 
 .intro {
@@ -52,7 +54,6 @@ header {
   font-weight: 400;
   line-height: 1.5rem;
   color: #344563;
-  margin-bottom: 0.75rem;
 }
 
 .supporting-text {
@@ -61,15 +62,15 @@ header {
   line-height: 1.5rem;
   text-transform: uppercase;
   color: #7f8cff;
-  margin-bottom: 0.75rem;
 }
 
 .social-media-links {
   display: flex;
   align-items: center;
+  list-style-type: none;
 }
 
-.social-media-links svg {
+.social-media-links a {
   display: inline-block;
   margin-right: 1.25rem;
 }
