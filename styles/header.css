@@ -67,6 +67,7 @@ header {
 .social-media-links {
   display: flex;
   align-items: center;
+  list-style-type: none;
 }
 
 .social-media-links a {
