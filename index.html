@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Michael-Mesfin</title>
+    <title>Michael-Mesfin | Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon/site.webmanifest">
+    
     <link rel="stylesheet" type="text/css" href="styles/general.css" />
     <link rel="stylesheet" type="text/css" href="styles/header.css" />
     <link rel="stylesheet" type="text/css" href="styles/projects.css" />
     <link rel="stylesheet" type="text/css" href="styles/about.css" />
+    <link rel="stylesheet" type="text/css" href="styles/footer.css" />
   </head>
 
   <body>
@@ -329,7 +335,7 @@
             <span>HTML</span>
           </li>
           <li>
-            <img src="images/css-logo.jpg" alt="css-logo" />
+            <img src="images/css-logo.png" alt="css-logo" />
             <span>CSS</span>
           </li>
           <li>
@@ -349,5 +355,32 @@
         <ul class="skill-list"></ul>
       </section>
     </section>
+    <footer>
+      <section class="contact-card">
+        <h2 class="title">Contact me</h2>
+        <p class="contact-note">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+        <form action="https://formspree.io/f/xknylwwy" method="POST">
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            maxlength="30"
+            required
+          />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea
+            name="message"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+          ></textarea>
+          <button type="submit" class="primary-btn">get in touch</button>
+        </form>
+      </section>
+    </footer>
   </body>
 </html>
