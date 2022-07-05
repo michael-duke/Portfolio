@@ -2,11 +2,11 @@
 
 # Portofolio- MICHAEL MESFIN
 
-
 > For this project in the process of creating my portfolio website, I will:
+>
 > - Set up a new repository and prepare it for development using best practices (e.g. linters).
 > - Build sections of the mobile website using the template you chose in the previous step.
-
+> - Work together with a team
 
 ## Built With
 
