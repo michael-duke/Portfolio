@@ -1,2 +1,4 @@
 # Dependency directories
 node_modules/
+# VS code directory
+.vscode
