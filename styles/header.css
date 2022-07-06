@@ -105,15 +105,7 @@ header {
     z-index: 3;
     filter: drop-shadow(0px 48px 48px rgba(37, 47, 137, 0.08));
   }
-
-  header {
-    background-image: url(../images/header-d-background.svg);
-    background-origin: padding-box;
-    background-position: center;
-    align-items: flex-start;
-    padding: 22.4375rem 16.25rem 15.9375rem 16.25rem;
-  }
-
+  
   .menu-btn-container .hamburger-menu {
     display: none;
   }
@@ -121,5 +113,16 @@ header {
   .menu-btn-container ul {
     display: inline-flex;
   }
-  
+
+  header {
+    background-image: url(../images/header-d-background.svg);
+    background-origin: padding-box;
+    background-position: center;
+    padding: 22.4375rem 12% 15.9375rem 12%;
+  }
+
+  header .title {
+    width: 57%;
+  }
+
 }
