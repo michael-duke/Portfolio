@@ -123,6 +123,10 @@
     padding: 1.5rem;
   }
 
+  .projects:nth-child(even) .project-container {
+    order: -1;
+  }
+
   .project-container .project-details,
   .project-container .project-desc,
   .project-container .tags {

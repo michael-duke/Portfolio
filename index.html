@@ -397,13 +397,6 @@
     </footer>
     <script defer>
       const desktopScreen = window.matchMedia("(max-width: 768px)");
-
-      const orderProjects = async (screenSize) => {
-        const projects = await document.querySelectorAll(".project-container");
-        projects.forEach((project,i) => project.style.order = 
-                          screenSize.matches ? 0 : i%2 ? -1 : 1);
-        
-      };
       
       const changeProjectImages = async (screenSize) => {
         const projectImages = await document.querySelectorAll(".projects img");
@@ -416,9 +409,7 @@
       };
 
       changeProjectImages(desktopScreen);
-      orderProjects(desktopScreen)
       desktopScreen.addListener(changeProjectImages);
-      desktopScreen.addListener(orderProjects)
     </script>
   </body>
 </html>
