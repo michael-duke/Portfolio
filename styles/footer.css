@@ -67,7 +67,7 @@ footer .primary-btn:active {
   border: none;
 }
 
-/* Media Section for the Footer*/
+/* Media Section for the Footer */
 
 @media (min-width: 768px) {
   .contact-card {
@@ -77,15 +77,17 @@ footer .primary-btn:active {
     background-position: center;
     gap: 30px;
   }
+
   footer .title {
     width: 100%;
     text-align: center;
-  } 
+  }
+
   .contact-note {
     margin-bottom: 0;
     width: 569px;
   }
-  
+
   footer form {
     display: flex;
     flex-direction: column;
@@ -98,6 +100,7 @@ footer .primary-btn:active {
     margin-bottom: 0;
     border-radius: 2px;
   }
+
   footer .primary-btn {
     align-self: center;
   }

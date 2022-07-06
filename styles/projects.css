@@ -74,7 +74,6 @@
   font-size: 1.25rem;
   line-height: 1.75rem;
   color: #344563;
-
 }
 
 .tags {
@@ -101,7 +100,6 @@
 /* Media Section for the Project/Works */
 
 @media (min-width: 768px) {
-
   .works {
     gap: 8.875rem;
     padding: 10%;
@@ -114,12 +112,12 @@
     padding: 1.375rem;
     border-radius: 1.375rem;
     cursor: pointer;
-    transition: border 0.10s ease-in;
+    transition: border 0.1s ease-in;
   }
 
   .projects:hover {
-    border: 0.125rem solid #A7AEFF;
-    filter: drop-shadow(0px 48px 48px rgba(37, 47, 137, 0.08));
+    border: 0.125rem solid #a7aeff;
+    filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
   }
 
   .projects img {
@@ -127,21 +125,21 @@
     max-width: 62.5rem;
   }
 
-  /* Replacing all the project images*/
-  
-  .projects:nth-child(1) img{
+  /* Replacing all the project images */
+
+  .projects:nth-child(1) img {
     content: url(../images/snapshoot-portfolio-1.png);
   }
 
-  .projects:nth-child(2) img{
+  .projects:nth-child(2) img {
     content: url(../images/snapshoot-portfolio-2.png);
   }
 
-  .projects:nth-child(3) img{
+  .projects:nth-child(3) img {
     content: url(../images/snapshoot-portfolio-3.png);
   }
 
-  .projects:nth-child(4) img{
+  .projects:nth-child(4) img {
     content: url(../images/snapshoot-portfolio-4.png);
   }
 
@@ -173,7 +171,7 @@
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.5rem;
-    color: #6B778C;
+    color: #6b778c;
   }
 
   .btn-margin {
