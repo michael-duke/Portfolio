@@ -11,13 +11,18 @@
   flex-direction: column;
   gap: 0.75rem;
   border: 0.0625rem solid #dfe1e6;
-  border-radius: 1rem;
+  border-radius: 14px;
   background-color: #fff;
   padding: 1rem;
 }
 
-.projects:last-child {
-  margin-bottom: 0;
+.project-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: unset;
+  width: auto;
 }
 
 .project-title {
@@ -37,7 +42,11 @@
 
 .project-details span {
   text-transform: capitalize;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
   color: #7a869a;
+  white-space: nowrap;
 }
 
 .project-details .client-label {
@@ -50,7 +59,8 @@
 
 .project-details .middot {
   color: #c1c7d0;
-  font-size: 5rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.1875rem;
 }
 
 .tags {
@@ -72,4 +82,67 @@
 
 .btn-margin {
   margin: 0.75rem 0;
+}
+
+/* Media Section for the Project/Works */
+
+@media (min-width: 768px) {
+
+  .works {
+    gap: 8.875rem;
+    padding: 10%;
+    justify-content: center;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1.375rem;
+    border-radius: 1.375rem;
+    cursor: pointer;
+    transition: border 0.10s ease-in;
+  }
+
+  .projects:hover {
+    border: 0.125rem solid #A7AEFF;
+    filter: drop-shadow(0px 48px 48px rgba(37, 47, 137, 0.08));
+  }
+
+  .projects img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    max-width: 62.5rem;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.75rem;
+    padding: 1.5rem;
+  }
+
+  .project-container .project-details,
+  .project-container .project-desc,
+  .project-container .tags {
+    margin-bottom: 0.75rem;
+  }
+
+  .project-details .client-label {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .project-details span {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #6B778C;
+  }
+
+  .btn-margin {
+    margin-top: 1.125rem;
+  }
 }

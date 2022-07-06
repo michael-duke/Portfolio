@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: #f7f7f9;
+  background-color: #e5e5e5;
 }
 
 .primary-btn {
@@ -44,4 +44,10 @@ body {
 
 .primary-btn:active {
   background-color: #2230d2;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #f7f7f9;
+  }
 }

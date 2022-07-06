@@ -2,6 +2,7 @@
 .about-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 1.5rem;
   padding: 7.125rem 1.5rem;
   width: 100vw;
@@ -41,7 +42,7 @@
   height: 4.5rem;
   padding-left: 0.75rem;
   padding-right: 2.5rem;
-  border-bottom: 1px solid  #dfe1e6;
+  border-bottom: 0.0625rem solid  #dfe1e6;
 }
 
 .skill-label-container:first-child {
@@ -66,8 +67,8 @@
 
 .skill-list li {
   background: #f7f7f9;
-  border-radius: 8px;
-  padding: 9px 0 9.72px 12px;
+  border-radius: 0.5rem;
+  padding: 0.5625rem 0 0.6075rem 0.75rem;
 }
 
 .skill-list li img {
@@ -84,4 +85,57 @@
   vertical-align: middle;
   color: #253858;
   margin-left: 1rem;
+}
+
+/* Media Section for the About-section */
+
+@media (min-width: 768px) {
+  .about-section {
+    flex-direction: row;
+    gap: 25px;
+    padding: 142px 134px;
+  }
+
+  .top-section {
+    flex-shrink: 2;
+    flex-grow: 1;
+    flex-basis: 447px;
+  }
+
+  .top-section .title {
+    width: 40%;
+  }
+
+  .top-section .supporting-text {
+    margin-bottom: 26px;
+  }
+
+  .top-section .primary-btn {
+    margin-top: 20px;
+  }
+
+  .skills-section {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    width: 100%;
+  }
+
+  .skill-list {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .skill-list li {
+    background: #f7f7f9;
+    border-radius: 0.5rem;
+    width: 122px;
+    padding: 12px 12px 20px 12px;
+  }
+
+  .skill-list li span {
+    display: block;
+    margin-left: 0;
+    margin-top: 16px;
+  }
 }

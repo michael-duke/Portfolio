@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../images/contact-form-bg.svg);
+  background-image: url(../images/contact-form-m-bg.svg);
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -54,8 +54,8 @@ footer textarea {
 
 footer input:focus,
 footer textarea:focus {
-  outline: 3px solid #cfd8dc;
-  outline-offset: 2px;
+  outline: 0.1875rem solid #cfd8dc;
+  outline-offset: 0.125rem;
 }
 
 footer .primary-btn {
@@ -65,4 +65,40 @@ footer .primary-btn {
 footer .primary-btn:active {
   background-color: #2230d2;
   border: none;
+}
+
+/* Media Section for the Footer*/
+
+@media (min-width: 768px) {
+  .contact-card {
+    width: 100vw;
+    background-image: url(../images/contact-form-d-bg.svg);
+    background-origin: padding-box;
+    background-position: center;
+    gap: 30px;
+  }
+  footer .title {
+    width: 100%;
+    text-align: center;
+  } 
+  .contact-note {
+    margin-bottom: 0;
+    width: 569px;
+  }
+  
+  footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: 70%;
+  }
+
+  footer input,
+  footer textarea {
+    margin-bottom: 0;
+    border-radius: 2px;
+  }
+  footer .primary-btn {
+    align-self: center;
+  }
 }
