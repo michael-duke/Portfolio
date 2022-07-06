@@ -26,13 +26,13 @@
   cursor: pointer;
 }
 
-
-.menu-btn-container ul {
+.navigation {
   list-style-type: none;
   gap: 2rem;
   display: none;
 }
-.menu-btn-container ul a {
+
+.navigation a {
   font-weight: 500;
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -94,18 +94,17 @@ header {
   fill: #6070ff;
 }
 
-/* Media Section for the Headline*/
+/* Media Section for the Headline */
 
 @media (min-width: 768px) {
-  
   .toolbar-containter {
     height: 4.5rem;
     padding: 0 9.6875rem;
     position: fixed;
     z-index: 3;
-    filter: drop-shadow(0px 48px 48px rgba(37, 47, 137, 0.08));
+    filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
   }
-  
+
   .menu-btn-container .hamburger-menu {
     display: none;
   }
@@ -124,5 +123,4 @@ header {
   header .title {
     width: 57%;
   }
-
 }
