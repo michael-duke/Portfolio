@@ -108,11 +108,31 @@
     filter: drop-shadow(0px 48px 48px rgba(37, 47, 137, 0.08));
   }
 
+  .project-title {
+    width: max-content;
+  }
+
   .projects img {
     width: 100%;
     height: auto;
     align-self: center;
     max-width: 62.5rem;
+  }
+
+  .projects:nth-child(1) img{
+    content: url(../images/snapshoot-portfolio-1.png);
+  }
+
+  .projects:nth-child(2) img{
+    content: url(../images/snapshoot-portfolio-2.png);
+  }
+
+  .projects:nth-child(3) img{
+    content: url(../images/snapshoot-portfolio-3.png);
+  }
+
+  .projects:nth-child(4) img{
+    content: url(../images/snapshoot-portfolio-4.png);
   }
 
   .project-container {
