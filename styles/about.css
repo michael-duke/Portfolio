@@ -97,9 +97,7 @@
   }
 
   .top-section {
-    flex-shrink: 2;
-    flex-grow: 1;
-    flex-basis: 447px;
+    flex-basis: 40%;
   }
 
   .top-section .title {
@@ -117,8 +115,7 @@
   .skills-section {
     display: flex;
     flex-direction: column;
-    flex: 3;
-    width: 100%;
+    flex-basis: 60%;
   }
 
   .skill-list {
