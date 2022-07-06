@@ -395,21 +395,5 @@
         </form>
       </section>
     </footer>
-    <script defer>
-      const desktopScreen = window.matchMedia("(max-width: 768px)");
-      
-      const changeProjectImages = async (screenSize) => {
-        const projectImages = await document.querySelectorAll(".projects img");
-
-        projectImages.forEach((img, i) => {
-          img.src = screenSize.matches
-            ? `images/snapshoot-project-${i + 1}.png`
-            : `images/snapshoot-portfolio-${i + 1}.png`;
-        });
-      };
-
-      changeProjectImages(desktopScreen);
-      desktopScreen.addListener(changeProjectImages);
-    </script>
   </body>
 </html>
