@@ -17,7 +17,7 @@
   width: 85vw;
 }
 
-.projects img {
+.project-image-container img {
   width: 100%;
 }
 
@@ -120,15 +120,18 @@
     filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
   }
 
-  .projects img {
+  .project-image-container {
+    overflow: hidden;
+  }
+  
+  .project-image-container img {
     align-self: center;
     max-width: 62.5rem;
     transition: transform 1s;
-    overflow: hidden;
   }
 
   .projects img:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
   }
 
   /* Replacing all the project images */

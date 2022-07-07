@@ -126,15 +126,17 @@
   .skill-list li {
     background: #f7f7f9;
     border-radius: 0.5rem;
-    width: 122px;
-    padding: 12px 12px 20px 12px;
-    transition: outline 0.5s;
+    width: 7.625rem;
+    padding: 0.75rem 0.75rem 1.25rem 0.75rem;
+    transition: background-color 0.21s, transform 0.21s;
   }
+
   .skill-list li:hover {
-    /*Add border*/
-    outline: 0.5px solid #6070ff;
+    background-color: #e5e5e5;
+    transform: scale(1.1);
     cursor: pointer;
   }
+
   .skill-list li span {
     display: block;
     margin-left: 0;
