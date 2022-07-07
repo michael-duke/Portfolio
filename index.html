@@ -36,13 +36,10 @@
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <img
-          class="hamburger-menu"
-          src="icons/menu-icon.svg"
-          alt="menu-icon"
-        />
+        <img class="hamburger-menu" src="icons/menu-icon.svg" alt="menu-icon" />
       </div>
     </nav>
+
     <main>
       <header>
         <h1 class="title">I’m Michael Glad to see you!</h1>
@@ -145,8 +142,13 @@
         </ul>
       </header>
       <section id="portfolio" class="works">
-        <div class="projects">
-          <img src="images/snapshoot-project-1.png" alt="snapshoot-project-1" />
+        <article class="projects">
+          <div class="project-image-container">
+            <img
+              src="images/snapshoot-project-1.png"
+              alt="snapshoot-project-1"
+            />
+          </div>
           <div class="project-container">
             <h2 class="project-title">tonic</h2>
             <div class="project-details">
@@ -169,10 +171,15 @@
               See Project
             </button>
           </div>
-        </div>
+        </article>
 
-        <div class="projects">
-          <img src="images/snapshoot-project-2.png" alt="snapshoot-project-2" />
+        <article class="projects">
+          <div class="project-image-container">
+            <img
+              src="images/snapshoot-project-2.png"
+              alt="snapshoot-project-2"
+            />
+          </div>
           <div class="project-container">
             <h2 class="project-title">multi-post stories</h2>
             <div class="project-details">
@@ -195,10 +202,15 @@
               See Project
             </button>
           </div>
-        </div>
+        </article>
 
-        <div class="projects">
-          <img src="images/snapshoot-project-3.png" alt="snapshoot-project-3" />
+        <article class="projects">
+          <div class="project-image-container">
+            <img
+              src="images/snapshoot-project-3.png"
+              alt="snapshoot-project-3"
+            />
+          </div>
           <div class="project-container">
             <h2 class="project-title">tonic</h2>
             <div class="project-details">
@@ -221,10 +233,15 @@
               See Project
             </button>
           </div>
-        </div>
+        </article>
 
-        <div class="projects">
-          <img src="images/snapshoot-project-4.png" alt="snapshoot-project-4" />
+        <article class="projects">
+          <div class="project-image-container">
+            <img
+              src="images/snapshoot-project-4.png"
+              alt="snapshoot-project-4"
+            />
+          </div>
           <div class="project-container">
             <h2 class="project-title">multi-post stories</h2>
             <div class="project-details">
@@ -247,10 +264,11 @@
               See Project
             </button>
           </div>
-        </div>
+        </article>
       </section>
+
       <section id="about" class="about-section">
-        <div class="top-section">
+        <article class="top-section">
           <h2 class="title">About Myself</h2>
           <p class="outro">
             Hello I’m a software developer! I can help you build a product ,
@@ -352,8 +370,9 @@
             </ul>
           </div>
           <button type="button" class="primary-btn">Get my resume</button>
-        </div>
-        <section class="skills-section">
+        </article>
+
+        <article class="skills-section">
           <div class="skill-label-container">
             <p class="label">languages</p>
             <img src="icons/chevron-down-icon.svg" alt="chevron-down-icon" />
@@ -382,8 +401,10 @@
             <img src="icons/chevron-right-icon.svg" alt="chevron-right-icon" />
           </div>
           <ul class="skill-list"></ul>
-        </section>
+        </article>
+
       </section>
+
       <footer class="contact-wrapper" id="contact">
         <div class="contact-card">
           <h2 class="title">Contact me</h2>
@@ -412,5 +433,6 @@
         </div>
       </footer>
     </main>
+    
   </body>
 </html>

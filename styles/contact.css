@@ -58,6 +58,17 @@
   outline-offset: 0.125rem;
 }
 
+.contact-wrapper input::placeholder,
+.contact-wrapper textarea::placeholder {
+  transition: transform 0.35s, color 0.35s;
+}
+
+.contact-wrapper input:hover::placeholder,
+.contact-wrapper textarea:hover::placeholder {
+  transform: translateX(1rem);
+  color: #6070ff;
+}
+
 .contact-wrapper .primary-btn {
   border: 0.0625rem solid #fff;
 }
