@@ -52,7 +52,7 @@
   height: 0.125rem;
   bottom: -0.625rem;
   left: 0;
-  background-color:  #6070ff;
+  background-color: #6070ff;
   transition: transform 0.25s ease-out;
 }
 
@@ -65,8 +65,8 @@
   color: #6070ff;
 }
 
-.navigation a:active::after{
-  background-color:  #344563;
+.navigation a:active::after {
+  background-color: #344563;
 }
 
 /* Header section */
@@ -114,7 +114,7 @@ header {
   list-style-type: none;
 }
 
-.social-media-links a {
+.social-media-links li {
   display: inline-block;
   margin-right: 1.25rem;
 }
