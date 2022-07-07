@@ -123,6 +123,12 @@
   .projects img {
     align-self: center;
     max-width: 62.5rem;
+    transition: transform 1s;
+    overflow: hidden;
+  }
+
+  .projects img:hover {
+    transform: scale(1.05);
   }
 
   /* Replacing all the project images */
