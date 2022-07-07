@@ -4,6 +4,7 @@
   grid-template-columns: 1fr;
   row-gap: 5.5rem;
   padding: 7.125rem 1.5rem;
+  justify-items: center;
 }
 
 .projects {
@@ -122,10 +123,10 @@
 
   .project-image-container {
     overflow: hidden;
+    align-self: center;
   }
 
-  .project-image-container img {
-    align-self: center;
+  .project-image-container img{
     max-width: 62.5rem;
     transition: transform 1s;
   }
