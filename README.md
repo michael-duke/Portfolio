@@ -16,11 +16,10 @@
 
 ## Website Mockup 📱 💻 🖥️
 ![screenshot](https://user-images.githubusercontent.com/84629565/177395064-bca5655a-2715-4d93-9d22-8f4946c2714c.png)
-![screenshot](https://user-images.githubusercontent.com/84629565/177395072-14b694f7-309c-4d64-a8a3-d47a1c330779.png)
-![screenshot](https://user-images.githubusercontent.com/84629565/177396249-ed0a871b-af80-4b74-a0df-4ee102afd439.png)
-![screenshot](https://user-images.githubusercontent.com/84629565/177574732-4102e27a-34cc-4155-b1f2-508fde0c963d.png)
-![screenshot](https://user-images.githubusercontent.com/84629565/177575833-67c3d395-e887-4dcf-9bfd-b50756412d2d.png)
 ![screenshot](https://user-images.githubusercontent.com/84629565/177576229-9ff212ac-bbd4-40c4-9760-5408dcc60d21.png)
+![screenshot](https://user-images.githubusercontent.com/84629565/177395072-14b694f7-309c-4d64-a8a3-d47a1c330779.png)
+![screenshot](https://user-images.githubusercontent.com/84629565/177735040-954b6968-eb11-40f9-ae6a-3a495b92e861.png)
+![screenshot](https://user-images.githubusercontent.com/84629565/177396249-ed0a871b-af80-4b74-a0df-4ee102afd439.png)
 ## Authors
 
 👤 **Michael Mesfin**
