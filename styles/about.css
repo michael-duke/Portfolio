@@ -129,7 +129,9 @@
     width: 122px;
     padding: 12px 12px 20px 12px;
   }
-
+  .skill-list:hover {
+    /*Add border*/
+  }
   .skill-list li span {
     display: block;
     margin-left: 0;
