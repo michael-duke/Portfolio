@@ -51,12 +51,13 @@
   height: 2rem;
 }
 
-.project-details span{
+.project-details span {
   text-transform: capitalize;
   font-weight: 600;
   font-size: 0.8125rem;
   line-height: 1rem;
   color: #7a869a;
+  white-space: nowrap;
 }
 
 .project-details .client-label {
@@ -126,7 +127,7 @@
     align-self: center;
   }
 
-  .project-image-container img{
+  .project-image-container img {
     max-width: 62.5rem;
     transition: transform 1s;
   }
@@ -171,6 +172,11 @@
     margin-bottom: 0.75rem;
   }
 
+  .project-container .project-desc {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .project-details .client-label {
     font-weight: 500;
     font-size: 1.125rem;
@@ -182,11 +188,6 @@
     font-size: 1.125rem;
     line-height: 1.5rem;
     color: #6b778c;
-  }
-
-  .project-desc {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .btn-margin {

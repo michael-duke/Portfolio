@@ -120,7 +120,7 @@ header {
 }
 
 .social-media-links svg {
-  transition: transform 0.275s ease-in-out
+  transition: transform 0.275s ease-in-out;
 }
 
 .social-media-links svg:hover {
@@ -158,6 +158,13 @@ header {
   }
 
   header .title {
-    width: 57%;
+    width: 69%;
+    font-size: 3rem;
+    line-height: 3.75rem;
+  }
+
+  .intro {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
