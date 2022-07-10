@@ -434,22 +434,5 @@
         </div>
       </footer>
     </main>
-    <script>
-      const list = document.getElementsByClassName('skill-list')[0];
-      const chevronBtn = document.getElementById('drop-btn');
-      const desktopScreen = window.matchMedia("(max-width: 768px)");
-
-      const toggleSkill = () =>{
-        let {display, opacity} = window.getComputedStyle(list);
-      
-        list.style.display = display == 'none' ? desktopScreen.matches ? 'flex' : 'inline-flex' : 'none';
-        rotateChevron()
-      }
-      
-      const rotateChevron = () =>{
-        let {transform} = window.getComputedStyle(chevronBtn);
-        chevronBtn.style.transform = transform == 'none' ? 'rotate(-90deg)' : 'none'
-      }
-    </script>
   </body>
 </html>
