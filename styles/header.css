@@ -120,7 +120,7 @@ header {
 }
 
 .social-media-links svg {
-  transition: transform 0.275s ease-in-out;
+  transition: transform 0.275s ease-in-out
 }
 
 .social-media-links svg:hover {

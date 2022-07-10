@@ -40,7 +40,7 @@
   justify-content: space-between;
   align-items: center;
   height: 4.5rem;
-  padding-left: 0.75rem;
+  padding-left: 1.5rem;
   padding-right: 2.5rem;
   border-bottom: 0.0625rem solid  #dfe1e6;
 }
@@ -58,17 +58,32 @@
 }
 
 .skill-list {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 0.75rem;
   list-style-type: none;
-  padding: 0.75rem;
+  padding: 0.75rem 0;
+  animation: fade-in 1s ease forwards;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
 }
 
 .skill-list li {
   background: #f7f7f9;
   border-radius: 0.5rem;
   padding: 0.5625rem 0 0.6075rem 0.75rem;
+}
+
+#drop-btn {
+  background: transparent;
+  transition: transform 0.5s;
 }
 
 .skill-list li img {

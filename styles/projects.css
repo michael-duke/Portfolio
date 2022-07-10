@@ -18,6 +18,10 @@
   width: 85vw;
 }
 
+.project-image-container {
+  border-radius: 0.5rem;
+}
+
 .project-image-container img {
   width: 100%;
 }
@@ -47,20 +51,16 @@
   height: 2rem;
 }
 
-.project-details span {
+.project-details span{
   text-transform: capitalize;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 0.8125rem;
+  line-height: 1rem;
   color: #7a869a;
-  white-space: nowrap;
 }
 
 .project-details .client-label {
   text-transform: uppercase;
-  font-weight: 600;
-  font-size: 0.8125rem;
-  line-height: 1rem;
   color: #344563;
 }
 
@@ -72,8 +72,8 @@
 
 .project-desc {
   font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
   color: #344563;
 }
 
@@ -182,6 +182,11 @@
     font-size: 1.125rem;
     line-height: 1.5rem;
     color: #6b778c;
+  }
+
+  .project-desc {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .btn-margin {
