@@ -110,7 +110,7 @@ header {
 
 .social-media-links {
   display: flex;
-  height: 40px;
+  height: 2.5rem;
   align-items: center;
   list-style-type: none;
 }
@@ -135,13 +135,13 @@ header {
 
 /* Media Section for the Headline */
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .toolbar-containter {
     height: 4.5rem;
     padding: 0 9.6875rem;
     position: fixed;
     z-index: 3;
-    filter: drop-shadow(0 48px 48px rgb(37 47 137 / 8%));
+    filter: drop-shadow(0 3rem 3rem rgb(37 47 137 / 8%));
   }
 
   .menu-btn-container .hamburger-menu {

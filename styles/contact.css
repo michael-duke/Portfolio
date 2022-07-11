@@ -80,13 +80,13 @@
 
 /* Media Section for the Footer */
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .contact-card {
     width: 100vw;
     background-image: url("../images/contact-form-d-bg.svg");
     background-origin: padding-box;
     background-position: center;
-    gap: 30px;
+    gap: 1.875rem;
   }
 
   .contact-wrapper .title {
@@ -96,20 +96,20 @@
 
   .contact-note {
     margin-bottom: 0;
-    width: 569px;
+    width: 35.5625rem;
   }
 
   .contact-wrapper form {
     display: flex;
     flex-direction: column;
-    gap: 27px;
+    gap: 1.6875rem;
     width: 30%;
   }
 
   .contact-wrapper input,
   .contact-wrapper textarea {
     margin-bottom: 0;
-    border-radius: 2px;
+    border-radius: 0.125rem;
   }
 
   .contact-wrapper .primary-btn {

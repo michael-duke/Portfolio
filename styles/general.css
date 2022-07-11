@@ -46,7 +46,7 @@ body {
   background-color: #2230d2;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   body {
     background-color: #f7f7f9;
   }

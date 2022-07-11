@@ -110,11 +110,11 @@
 
 /* Media Section for the About-section */
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .about-section {
     flex-direction: row;
-    gap: 25px;
-    padding: 142px 134px;
+    gap: 1.5625rem;
+    padding: 8.875rem 8.375rem;
   }
 
   .top-section {
@@ -126,11 +126,11 @@
   }
 
   .top-section .supporting-text {
-    margin-bottom: 26px;
+    margin-bottom: 1.625rem;
   }
 
   .top-section .primary-btn {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .skills-section {
@@ -165,6 +165,6 @@
   .skill-list li span {
     display: block;
     margin-left: 0;
-    margin-top: 16px;
+    margin-top: 1rem;
   }
 }
