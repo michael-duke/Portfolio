@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap";
 
 html {
   scroll-behavior: smooth;
@@ -39,7 +39,7 @@ body {
 .primary-btn:hover {
   color: #fff;
   background: #6070ff;
-  box-shadow: 0 0.5rem 1rem rgba(64, 83, 252, 0.24);
+  box-shadow: 0 0.5rem 1rem rgb(64 83 252 / 24%);
 }
 
 .primary-btn:active {
