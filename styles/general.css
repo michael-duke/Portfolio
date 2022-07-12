@@ -18,6 +18,11 @@ body {
   background-color: #e5e5e5;
 }
 
+.dummy-heading {
+  font-size: 0;
+  visibility: hidden;
+}
+
 .primary-btn {
   align-self: flex-start;
   text-transform: capitalize;
