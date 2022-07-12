@@ -45,7 +45,7 @@
   border-bottom: 0.0625rem solid  #dfe1e6;
 }
 
-.skill-label-container:first-child {
+.skill-label-container:first-of-type {
   border: none;
 }
 

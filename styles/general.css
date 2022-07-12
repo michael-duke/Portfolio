@@ -15,10 +15,10 @@ html {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #f7f7f9;
 }
 
-.dummy-heading {
+h2.dummy-heading {
   font-size: 0;
   visibility: hidden;
 }
@@ -51,8 +51,3 @@ body {
   background-color: #2230d2;
 }
 
-@media screen and (min-width: 48rem) {
-  body {
-    background-color: #f7f7f9;
-  }
-}
