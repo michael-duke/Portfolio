@@ -1,6 +1,10 @@
 /* Toolbar Section */
 
 .toolbar-containter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
   height: 3rem;
   width: 100vw;
   display: flex;
@@ -138,9 +142,7 @@ header {
 @media (min-width: 48rem) {
   .toolbar-containter {
     height: 4.5rem;
-    padding: 0 9.6875rem;
-    position: fixed;
-    z-index: 3;
+    padding: 0 10%;
     filter: drop-shadow(0 3rem 3rem rgb(37 47 137 / 8%));
   }
 
