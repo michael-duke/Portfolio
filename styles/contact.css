@@ -18,7 +18,9 @@
 }
 
 .contact-wrapper .title {
-  color: white;
+  color: #fff;
+  width: 100%;
+  text-align: center;
 }
 
 .contact-note {

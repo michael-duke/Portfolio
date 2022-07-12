@@ -46,12 +46,14 @@
 
 .project-details {
   display: inline-flex;
+  overflow: auto;
   align-items: center;
   gap: 0.75rem;
   height: 2rem;
 }
 
 .project-details span {
+  display: block;
   text-transform: capitalize;
   font-weight: 600;
   font-size: 0.8125rem;
@@ -80,6 +82,7 @@
 
 .tags {
   display: inline-flex;
+  overflow: auto;
   list-style-type: none;
   gap: 0.5rem;
 }
