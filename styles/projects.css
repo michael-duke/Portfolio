@@ -1,5 +1,5 @@
 /* Works section */
-.works {
+.works-grid {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 5.5rem;
@@ -102,7 +102,7 @@
 /* Media Section for the Project/Works */
 
 @media (min-width: 48rem) {
-  .works {
+  .works-grid {
     gap: 8.875rem;
     padding: 10%;
     justify-content: center;
