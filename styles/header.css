@@ -16,9 +16,9 @@
 
 .logo-container a > * {
   display: flex;
-  width: 3.7rem;
   flex-direction: row;
   align-items: center;
+  width: 4rem;
   padding: 0.625rem 0.75rem;
   font-weight: 700;
   font-size: 1.125rem;
@@ -70,6 +70,54 @@
 
 .navigation a:active::after {
   background-color: #344563;
+}
+
+/* Mobile menu section */
+
+.mobile-menu {
+  position: absolute;
+  z-index: 100;
+  display: none;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100%;
+  padding: 48px 24px 0 28px;
+  background: rgb(96 112 255);
+  background:
+    radial-gradient(
+      circle,
+      rgb(96 112 255 / 89.4%) 0%,
+      rgb(96 112 255 / 84.4%) 35%,
+      rgb(96 112 255 / 88.9%) 100%
+    );
+  border: none;
+}
+
+.mobile-menu .menu-close-btn {
+  float: right;
+  width: max-content;
+  background: transparent;
+  border: none;
+}
+
+.mobile-menu .menu-close-btn a > * {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.mobile-menu .navigation {
+  clear: both;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mobile-menu .navigation a {
+  display: block;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
 }
 
 /* Header section */
