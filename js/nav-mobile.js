@@ -2,7 +2,7 @@ const header = document.querySelector('header');
 const nav = document.querySelector('nav');
 const navigation = document.querySelector('.navigation');
 
-const closeMenuModal = (e) => {
+const closeMenuModal = () => {
   const navModal = document.getElementById('mobile-modal');
   if (navModal) navModal.remove();
   // Reset the background that was blurred
