@@ -10,15 +10,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 0.75rem;
-  background-color: #fff;
-  border-bottom: 0.0625rem solid #e5e5e5;
+  transition: background-color 0.58s ease-out;
 }
 
 .logo-container a > * {
+  position: relative;
   display: flex;
-  width: 3.7rem;
   flex-direction: row;
   align-items: center;
+  width: 4rem;
   padding: 0.625rem 0.75rem;
   font-weight: 700;
   font-size: 1.125rem;
@@ -27,18 +27,24 @@
 }
 
 .hamburger-menu {
+  position: relative;
   cursor: pointer;
 }
 
 .navigation {
+  position: relative;
   list-style-type: none;
   gap: 2rem;
   display: none;
 }
 
+.navigation li {
+  height: min-content;
+}
+
 .navigation a {
-  display: inline-block;
   position: relative;
+  display: inline-block;
   font-weight: 500;
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -59,6 +65,17 @@
   transition: transform 0.25s ease-out;
 }
 
+.active-navlink a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  transform: scaleX(1);
+  height: 0.125rem;
+  bottom: -0.625rem;
+  left: 0;
+  background-color: #6070ff;
+}
+
 .navigation a:hover::after {
   transform: scaleX(1);
   transform-origin: center;
@@ -70,6 +87,57 @@
 
 .navigation a:active::after {
   background-color: #344563;
+}
+
+/* Mobile menu section */
+
+.mobile-menu {
+  position: absolute;
+  z-index: 21;
+  display: none;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 48px 24px 0 28px;
+  background: rgb(96 112 255);
+  background:
+    radial-gradient(
+      circle,
+      rgb(96 112 255 / 89.4%) 0%,
+      rgb(96 112 255 / 84.4%) 35%,
+      rgb(96 112 255 / 88.9%) 100%
+    );
+
+  /* background: #6070FF;
+  opacity: 0.75; */
+  border: none;
+}
+
+.mobile-menu .menu-close-btn {
+  float: right;
+  width: max-content;
+  background: transparent;
+  border: none;
+}
+
+.mobile-menu .menu-close-btn a > * {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.mobile-menu .navigation {
+  clear: both;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.mobile-menu .navigation a {
+  display: block;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: #fff;
 }
 
 /* Header section */
@@ -134,6 +202,11 @@ header {
 
 .social-media-links svg:hover path {
   fill: #6070ff;
+}
+
+.sticky-nav {
+  background-color: #fff;
+  border-bottom: 0.0625rem solid #e5e5e5;
 }
 
 /* Media Section for the Headline */
