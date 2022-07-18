@@ -40,7 +40,8 @@ function renderMenuModal() {
   navModal.className = 'mobile-menu';
   navModal.id = 'mobile-modal';
   navModal.addEventListener('click', (e) => {
-    if (e.target.nodeName === 'DIV') closeMenuModal();
+    const {target } = e
+    if (target.nodeName === 'DIV') closeMenuModal();
   });
   navModal.style.display = 'block';
   navModal.appendChild(closeBtn);
