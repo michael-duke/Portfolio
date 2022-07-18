@@ -40,7 +40,7 @@ function renderMenuModal() {
   navModal.className = 'mobile-menu';
   navModal.id = 'mobile-modal';
   navModal.addEventListener('click', (e) => {
-    const {target } = e
+    const { target } = e;
     if (target.nodeName === 'DIV') closeMenuModal();
   });
   navModal.style.display = 'block';
@@ -58,8 +58,7 @@ const resetNavigation = () => {
     nav.prepend(navigation);
     navigation.style.display = 'inline-flex';
     closeMenuModal();
-  } else if (nav.firstElementChild.classList.contains('navigation'))
-    nav.firstElementChild.remove();
+  } else if (nav.firstElementChild.classList.contains('navigation')) { nav.firstElementChild.remove(); }
 };
 
 export { renderMenuModal, closeMenuModal, resetNavigation };
