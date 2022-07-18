@@ -1,12 +1,11 @@
 const toggleStickyNav = () => {
   const toolbar = document.querySelector('.toolbar-containter');
   const scrollPos = window.scrollY;
-  const toggleSticky =
-    scrollPos > 0
-      ? toolbar.classList.add('sticky-nav')
-      : toolbar.classList.remove('sticky-nav');
+  const toggleSticky = scrollPos > 0
+    ? toolbar.classList.add('sticky-nav')
+    : toolbar.classList.remove('sticky-nav');
 
-  window.innerWidth < 768
+  return window.innerWidth < 768
     ? toolbar.classList.remove('sticky-nav')
     : toggleSticky;
 };
@@ -20,12 +19,12 @@ const navScrollSpy = () => {
       const sectionTop = section.offsetTop - 200;
       const sectionId = section.getAttribute('id');
       const navLink = document.querySelector(
-        `.navigation li a[href*=${sectionId}]`
+        `.navigation li a[href*=${sectionId}]`,
       );
 
-      if (scrollPos > sectionTop && scrollPos <= sectionTop + sectionHeight)
+      if (scrollPos > sectionTop && scrollPos <= sectionTop + sectionHeight) {
         navLink.parentElement.classList.add('active-navlink');
-      else navLink.parentElement.classList.remove('active-navlink');
+      } else navLink.parentElement.classList.remove('active-navlink');
     });
   }
 };

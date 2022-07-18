@@ -15,10 +15,9 @@ const toggleSkill = (event) => {
   list.forEach((skillList, i) => {
     const { display } = window.getComputedStyle(skillList);
     if (btn.id === `drop-btn-${i + 1}`) {
-      skillContainer.style.borderBottom =
-        display === 'none'
-          ? '0px none rgb(255, 255, 255)'
-          : '1px solid rgb(223, 225, 230)';
+      skillContainer.style.borderBottom = display === 'none'
+        ? '0px none rgb(255, 255, 255)'
+        : '1px solid rgb(223, 225, 230)';
 
       skillList.style.display = display === 'none' ? toggleFlex : 'none';
     }
