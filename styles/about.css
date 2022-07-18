@@ -43,11 +43,8 @@
   height: 4.5rem;
   padding-left: 1.5rem;
   padding-right: 2.5rem;
-  border-bottom: 0.0625rem solid  #dfe1e6;
-}
-
-.skill-label-container:first-of-type {
-  border: none;
+  border-bottom: 0.0625rem solid #dfe1e6;
+  transition: border 1.5s ease-out;
 }
 
 .skill-label-container .label {
@@ -58,7 +55,7 @@
   line-height: 1.5rem;
 }
 
-#drop-btn {
+.skill-drop-btn {
   display: flex;
   align-items: center;
   border: none;
@@ -69,7 +66,7 @@
 }
 
 .skill-list {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 0.75rem;
   list-style-type: none;
@@ -88,6 +85,9 @@
 }
 
 .skill-list li {
+  display: flex;
+  align-items: center;
+  height: 4rem;
   background: #f7f7f9;
   border-radius: 0.5rem;
   padding: 0.5625rem 0 0.6075rem 0.75rem;
@@ -145,14 +145,19 @@
   }
 
   .skill-list {
-    flex-direction: row-reverse;
+    flex-flow: row-reverse wrap;
     justify-content: flex-end;
   }
 
   .skill-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     background: #f7f7f9;
     border-radius: 0.5rem;
     width: 7.625rem;
+    height: inherit;
     padding: 0.75rem 0.75rem 1.25rem;
     transition: background-color 0.21s, transform 0.21s;
   }
