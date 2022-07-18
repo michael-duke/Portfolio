@@ -95,6 +95,7 @@
   background: #ebebff;
   padding: 0.25rem 0.75rem;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .btn-margin {
@@ -115,7 +116,6 @@
     grid-template-columns: 1fr 1fr;
     padding: 1.375rem;
     border-radius: 1.375rem;
-    cursor: pointer;
     transition: border 0.1s ease-in;
   }
 
@@ -127,6 +127,7 @@
   .project-image-container {
     overflow: hidden;
     align-self: center;
+    cursor: pointer;
   }
 
   .project-image-container img {
