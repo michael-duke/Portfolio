@@ -1,6 +1,7 @@
 import { renderMenuModal, resetNavigation } from './nav-mobile.js';
 import { toggleStickyNav, navScrollSpy } from './nav-desktop.js';
 import toggleSkill from './about.js';
+import renderPortfolio from './project.js';
 
 const mobileMenu = document.getElementById('menu-toggle');
 mobileMenu.onclick = renderMenuModal;
@@ -8,6 +9,8 @@ mobileMenu.onclick = renderMenuModal;
 window.addEventListener('resize', resetNavigation);
 window.addEventListener('scroll', toggleStickyNav);
 window.addEventListener('scroll', navScrollSpy);
+
+document.addEventListener('DOMContentLoaded', renderPortfolio);
 
 const chevronBtns = [...document.getElementsByClassName('skill-drop-btn')];
 chevronBtns.forEach((btn, i) => {

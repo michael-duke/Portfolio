@@ -92,13 +92,13 @@
 /* Mobile menu section */
 
 .mobile-menu {
-  position: absolute;
+  position: fixed;
   z-index: 21;
   display: none;
   top: 0;
   right: 0;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   padding: 48px 24px 0 28px;
   background: rgb(96 112 255);
   background:
