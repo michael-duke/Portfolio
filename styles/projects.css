@@ -119,6 +119,7 @@
   width: 100%;
   height: 100%;
   padding: 40px 16px;
+  animation: fade-in 0.45s ease-out;
 }
 
 .detail-popup {
@@ -132,6 +133,27 @@
   border: 0.0625rem solid #dfe1e6;
   border-radius: 1rem;
   overflow: scroll;
+  animation: zoom-in 0.45s ease-out;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .detail-header {
@@ -158,14 +180,14 @@
 }
 
 .detail-popup .detail-image-container img {
-  max-width: 700px;
+  max-width: 1000px;
 }
 
 .divider {
   display: block;
   height: 0.0625rem;
   margin: 0.5rem 0.25rem;
-  border-top: 0.0625rem solid #ebecf0;
+  border-top: 0.125rem solid #ebecf0;
 }
 
 .action-container {
@@ -192,6 +214,11 @@
 }
 
 /* Media Section for the Project/Works */
+@media (min-width: 1024px) {
+  .project-container-grid {
+    gap: 1.5rem;
+  }
+}
 
 @media (min-width: 48rem) {
   .works-grid {
@@ -209,9 +236,10 @@
   }
 
   .project-container-grid {
+    width: 95%;
     margin: 2.5rem 0;
     grid-template-columns: 70% 30%;
-    gap: 1.5rem;
+    gap: 2.5rem;
   }
 
   .projects:hover {
@@ -232,15 +260,16 @@
 
   /* Popup section */
 
+  .detail-popup {
+    padding: 1.5rem;
+  }
+
   .detail-popup .detail-image-container {
     width: 100%;
-    margin: 10px auto;
   }
 
   .detail-popup .detail-image-container img {
     width: 100%;
-    margin: 1px auto;
-    transition: transform 1s;
   }
 
   .projects img:hover {
