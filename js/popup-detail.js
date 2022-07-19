@@ -2,7 +2,12 @@ import projectList from './project-list.js';
 
 const closePopup = () => {
   const modal = document.querySelector('.detail-backdrop');
-  modal.remove();
+  const popup = modal.querySelector('.detail-popup');
+  popup.classList.toggle('on-popup-close');
+  setTimeout(() => {
+    modal.remove();
+  },
+  460);
 };
 
 function renderPopup(projectInfo) {
