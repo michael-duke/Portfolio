@@ -102,6 +102,85 @@
   margin: 0.75rem 0;
 }
 
+/* Project Detail Popup section */
+.detail-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 22;
+  background: rgb(193, 199, 208);
+  background: linear-gradient(
+    127deg,
+    rgba(193, 199, 208, 0.9224732129179797) 0%,
+    rgba(193, 199, 208, 0.9084676106770834) 35%,
+    rgba(193, 199, 208, 0.9140698515734419) 100%
+  );
+  width: 100%;
+  height: 100%;
+  padding: 40px 16px;
+}
+
+.detail-popup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  height: 80vh;
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  overflow: scroll;
+  opacity: 1;
+}
+
+.detail-header {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.detail-header .cancel-btn {
+  width: max-content;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.detail-header .cancel-btn a > * {
+  width: 2rem;
+  height: 2rem;
+}
+
+.project-container-grid {
+  display: grid;
+  row-gap: 12px;
+}
+
+.divider {
+  display: block;
+  height: 1px;
+  margin: 8px 4px;
+  border-top: 1px solid #ebecf0;
+}
+.action-container {
+  align-self: center;
+  display: inline-flex;
+  gap: 12px;
+  padding: 4px 9px;
+}
+.action-container .primary-btn {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.action-container .primary-btn:hover svg path {
+  fill: #fff;
+}
+.project-container-grid .right-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 /* Media Section for the Project/Works */
 
 @media (min-width: 48rem) {
@@ -109,6 +188,12 @@
     gap: 8.875rem;
     padding: 10%;
     justify-content: center;
+  }
+
+  .project-container-grid {
+    margin: 40px 0;
+    grid-template-columns: 1fr auto;
+    gap: 24px;
   }
 
   .projects {
@@ -135,26 +220,56 @@
     transition: transform 1s;
   }
 
-  .projects img:hover {
+  /* Popup section */
+  .detail-popup .project-image-container {
+    width: 100%;
+  }
+
+  .detail-popup .project-image-container img {
+    width: 80%;
+    /* max-width: 200px; */
+    height: 50%;
+    max-width: none;
+    transition: transform 1s;
+  }
+
+  .projects img:hover,
+  .detail-popup img:hover {
     transform: scale(1.2);
   }
 
   /* Replacing all the project images */
 
   .projects:nth-child(1) img {
-    content: url("../images/snapshoot-portfolio-1.png");
+    content: url('../images/snapshoot-portfolio-1.png');
   }
 
   .projects:nth-child(2) img {
-    content: url("../images/snapshoot-portfolio-2.png");
+    content: url('../images/snapshoot-portfolio-2.png');
   }
 
   .projects:nth-child(3) img {
-    content: url("../images/snapshoot-portfolio-3.png");
+    content: url('../images/snapshoot-portfolio-3.png');
   }
 
   .projects:nth-child(4) img {
-    content: url("../images/snapshoot-portfolio-4.png");
+    content: url('../images/snapshoot-portfolio-4.png');
+  }
+
+  #popup-prj-1 img {
+    content: url('../images/snapshoot-portfolio-1.png');
+  }
+
+  #popup-prj-2 img {
+    content: url('../images/snapshoot-portfolio-2.png');
+  }
+
+  #popup-prj-3 img {
+    content: url('../images/snapshoot-portfolio-3.png');
+  }
+
+  #popup-prj-4 img {
+    content: url('../images/snapshoot-portfolio-4.png');
   }
 
   .project-container {
