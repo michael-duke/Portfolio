@@ -8,8 +8,7 @@ const rotateChevron = (btn) => {
 };
 
 const toggleSkill = (event) => {
-  const { path } = event;
-  const [, btn, skillContainer] = path;
+  const { path: [, btn, skillContainer] } = event;
   const toggleFlex = desktopScreen.matches ? 'flex' : 'inline-flex';
 
   list.forEach((skillList, i) => {

@@ -48,8 +48,8 @@ function renderMenuModal() {
   navModal.appendChild(navigation);
   document.body.prepend(navModal);
   // Blur Background
-  nav.style.filter = 'blur(8px)';
-  header.style.filter = 'blur(8px)';
+  nav.style.filter = 'blur(6px)';
+  header.style.filter = 'blur(6px)';
 }
 
 const resetNavigation = () => {
