@@ -26,6 +26,7 @@ h2.dummy-heading {
 .primary-btn {
   align-self: flex-start;
   text-transform: capitalize;
+  text-decoration: none;
   font-weight: 500;
   font-size: 1.0625rem;
   line-height: 1.5rem;

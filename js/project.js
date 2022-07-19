@@ -1,4 +1,5 @@
-import test from './popup-detail.js';
+import onPopup from './popup-detail.js';
+
 const projectList = [
   {
     id: 1,
@@ -108,12 +109,6 @@ function renderPortfolio() {
   mainSection.prepend(sectionProjects);
   renderProjects(containerGrid);
 }
-// function createProject(title='Hello', imageUrl='someImage') {
-//   const id = projectList.length +1;
-//   projectList.push({id,title,imageUrl})
-
-//   console.log(projectList);
-// }
 
 const renderProjects = (parentGrid) => {
   projectList.forEach((project) => {
@@ -191,7 +186,7 @@ const renderProjects = (parentGrid) => {
     seeBtn.innerText = 'See Project';
     seeBtn.id = `btn-project${id}`;
     seeBtn.className = 'btn-margin primary-btn';
-    seeBtn.onclick = test;
+    seeBtn.onclick = onPopup;
     projectContainer.appendChild(seeBtn);
 
     projectDiv.appendChild(imageContainer);
