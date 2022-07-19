@@ -6,8 +6,7 @@ const closePopup = () => {
   popup.classList.toggle('on-popup-close');
   setTimeout(() => {
     modal.remove();
-  },
-  460);
+  }, 460);
 };
 
 function renderPopup(projectInfo) {
@@ -161,11 +160,10 @@ function renderPopup(projectInfo) {
 
 const onPopup = (e) => {
   const {
-    path: [, , project],
+    target: { id },
   } = e;
-  const id = +project.id.slice(-1);
-
-  renderPopup(projectList[id - 1]);
+  const prjId = +id.slice(-1);
+  renderPopup(projectList[prjId - 1]);
 };
 
 export default onPopup;
