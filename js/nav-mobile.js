@@ -1,5 +1,7 @@
 const header = document.querySelector('header');
 const nav = document.querySelector('nav');
+const main = document.querySelector('main');
+const footer = document.querySelector('footer');
 const navigation = document.querySelector('.navigation');
 
 const closeMenuModal = () => {
@@ -8,6 +10,8 @@ const closeMenuModal = () => {
   // Reset the background that was blurred
   nav.style.filter = '';
   header.style.filter = '';
+  main.style.filter = '';
+  footer.style.filter = '';
 };
 
 function renderMenuModal() {
@@ -50,6 +54,8 @@ function renderMenuModal() {
   // Blur Background
   nav.style.filter = 'blur(6px)';
   header.style.filter = 'blur(6px)';
+  main.style.filter = 'blur(6px)';
+  footer.style.filter = 'blur(6px)';
 }
 
 const resetNavigation = () => {
@@ -58,7 +64,9 @@ const resetNavigation = () => {
     nav.prepend(navigation);
     navigation.style.display = 'inline-flex';
     closeMenuModal();
-  } else if (nav.firstElementChild.classList.contains('navigation')) { nav.firstElementChild.remove(); }
+  } else if (nav.firstElementChild.classList.contains('navigation')) {
+    nav.firstElementChild.remove();
+  }
 };
 
 export { renderMenuModal, closeMenuModal, resetNavigation };
