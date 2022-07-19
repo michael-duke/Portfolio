@@ -8,7 +8,10 @@ const onPopup = (e) => {
 
   renderPopup(projectList[id - 1]);
 };
-
+const closePopup = () => {
+  const modal = document.querySelector('.detail-backdrop');
+  modal.remove();
+};
 function renderPopup(projectInfo) {
   const {
     id,
@@ -159,9 +162,6 @@ function renderPopup(projectInfo) {
   document.body.appendChild(modalBackdrop);
 }
 
-const closePopup = () => {
-  const modal = document.querySelector('.detail-backdrop');
-  modal.remove();
-};
+
 
 export default onPopup;

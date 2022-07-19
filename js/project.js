@@ -91,25 +91,6 @@ const projectList = [
   },
 ];
 
-function renderPortfolio() {
-  const sectionProjects = document.createElement('section');
-  sectionProjects.id = 'portfolio';
-
-  //Add for Linter error
-  const dummyheading = document.createElement('h2');
-  dummyheading.innerText = 'Work Projects';
-  dummyheading.className = 'dummy-heading';
-  sectionProjects.appendChild(dummyheading);
-
-  const containerGrid = document.createElement('div');
-  containerGrid.className = 'works-grid';
-  sectionProjects.appendChild(containerGrid);
-
-  const mainSection = document.querySelector('main');
-  mainSection.prepend(sectionProjects);
-  renderProjects(containerGrid);
-}
-
 const renderProjects = (parentGrid) => {
   projectList.forEach((project) => {
     const {
@@ -194,5 +175,22 @@ const renderProjects = (parentGrid) => {
     parentGrid.appendChild(projectDiv);
   });
 };
+function renderPortfolio() {
+  const sectionProjects = document.createElement('section');
+  sectionProjects.id = 'portfolio';
 
+  //Add for Linter error
+  const dummyheading = document.createElement('h2');
+  dummyheading.innerText = 'Work Projects';
+  dummyheading.className = 'dummy-heading';
+  sectionProjects.appendChild(dummyheading);
+
+  const containerGrid = document.createElement('div');
+  containerGrid.className = 'works-grid';
+  sectionProjects.appendChild(containerGrid);
+
+  const mainSection = document.querySelector('main');
+  mainSection.prepend(sectionProjects);
+  renderProjects(containerGrid);
+}
 export { renderPortfolio, projectList };
