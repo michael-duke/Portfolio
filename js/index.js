@@ -1,7 +1,7 @@
 import { renderMenuModal, resetNavigation } from './nav-mobile.js';
 import { toggleStickyNav, navScrollSpy } from './nav-desktop.js';
 import toggleSkill from './about.js';
-import { renderPortfolio } from './project.js';
+import renderPortfolio from './project.js';
 
 const mobileMenu = document.getElementById('menu-toggle');
 mobileMenu.onclick = renderMenuModal;
