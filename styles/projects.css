@@ -108,13 +108,14 @@
   top: 0;
   bottom: 0;
   z-index: 22;
-  background: rgb(193, 199, 208);
-  background: linear-gradient(
-    127deg,
-    rgba(193, 199, 208, 0.9224732129179797) 0%,
-    rgba(193, 199, 208, 0.9084676106770834) 35%,
-    rgba(193, 199, 208, 0.9140698515734419) 100%
-  );
+  background: rgb(193 199 208);
+  background:
+    linear-gradient(
+      127deg,
+      rgb(193 199 208 / 92.2%) 0%,
+      rgb(193 199 208 / 90.8%) 35%,
+      rgb(193 199 208 / 91.4%) 100%
+    );
   width: 100%;
   height: 100%;
   padding: 40px 16px;
@@ -123,22 +124,22 @@
 .detail-popup {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0.75rem;
   width: 100%;
   height: 80vh;
-  padding: 16px;
+  padding: 1rem;
   background-color: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
+  border: 0.0625rem solid #dfe1e6;
+  border-radius: 1rem;
   overflow: scroll;
-  opacity: 1;
 }
 
 .detail-header {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 0.875rem;
 }
+
 .detail-header .cancel-btn {
   width: max-content;
   background: transparent;
@@ -153,39 +154,43 @@
 
 .project-container-grid {
   display: grid;
-  row-gap: 12px;
+  row-gap: 0.75rem;
 }
 
-.detail-popup .project-image-container img {
-  max-width: 660px;
-  /* width: 100px; */
+.detail-popup .detail-image-container img {
+  max-width: 700px;
 }
 
 .divider {
   display: block;
-  height: 1px;
-  margin: 8px 4px;
-  border-top: 1px solid #ebecf0;
+  height: 0.0625rem;
+  margin: 0.5rem 0.25rem;
+  border-top: 0.0625rem solid #ebecf0;
 }
+
 .action-container {
   align-self: center;
   display: inline-flex;
-  gap: 12px;
-  padding: 4px 9px;
+  gap: 0.75rem;
+  padding: 0.25rem 0.5625rem;
 }
+
 .action-container .primary-btn {
   display: flex;
-  gap: 14px;
+  gap: 0.875rem;
   align-items: center;
 }
+
 .action-container .primary-btn:hover svg path {
   fill: #fff;
 }
+
 .project-container-grid .right-block {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 }
+
 /* Media Section for the Project/Works */
 
 @media (min-width: 48rem) {
@@ -195,18 +200,18 @@
     justify-content: center;
   }
 
-  .project-container-grid {
-    margin: 40px 0;
-    grid-template-columns: 1fr auto;
-    gap: 24px;
-  }
-
   .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1.375rem;
     border-radius: 1.375rem;
     transition: border 0.1s ease-in;
+  }
+
+  .project-container-grid {
+    margin: 2.5rem 0;
+    grid-template-columns: 70% 30%;
+    gap: 1.5rem;
   }
 
   .projects:hover {
@@ -226,57 +231,54 @@
   }
 
   /* Popup section */
-  .detail-popup .project-image-container {
+
+  .detail-popup .detail-image-container {
     width: 100%;
-    margin: 6px auto;
+    margin: 10px auto;
   }
 
-  .detail-popup .project-image-container img {
-    width: 80%;
-    /* max-width: 200px; */
-    /* height: 50%; */
-    height: 100%;
-    max-width: none;
+  .detail-popup .detail-image-container img {
+    width: 100%;
+    margin: 1px auto;
     transition: transform 1s;
   }
 
-  .projects img:hover,
-  .detail-popup img:hover {
+  .projects img:hover {
     transform: scale(1.2);
   }
 
   /* Replacing all the project images */
 
   .projects:nth-child(1) img {
-    content: url('../images/snapshoot-portfolio-1.png');
+    content: url("../images/snapshoot-portfolio-1.png");
   }
 
   .projects:nth-child(2) img {
-    content: url('../images/snapshoot-portfolio-2.png');
+    content: url("../images/snapshoot-portfolio-2.png");
   }
 
   .projects:nth-child(3) img {
-    content: url('../images/snapshoot-portfolio-3.png');
+    content: url("../images/snapshoot-portfolio-3.png");
   }
 
   .projects:nth-child(4) img {
-    content: url('../images/snapshoot-portfolio-4.png');
+    content: url("../images/snapshoot-portfolio-4.png");
   }
 
   #popup-prj-1 img {
-    content: url('../images/snapshoot-portfolio-1.png');
+    content: url("../images/snapshoot-portfolio-1.png");
   }
 
   #popup-prj-2 img {
-    content: url('../images/snapshoot-portfolio-2.png');
+    content: url("../images/snapshoot-portfolio-2.png");
   }
 
   #popup-prj-3 img {
-    content: url('../images/snapshoot-portfolio-3.png');
+    content: url("../images/snapshoot-portfolio-3.png");
   }
 
   #popup-prj-4 img {
-    content: url('../images/snapshoot-portfolio-4.png');
+    content: url("../images/snapshoot-portfolio-4.png");
   }
 
   .project-container {
