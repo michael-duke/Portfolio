@@ -156,6 +156,11 @@
   row-gap: 12px;
 }
 
+.detail-popup .project-image-container img {
+  max-width: 660px;
+  /* width: 100px; */
+}
+
 .divider {
   display: block;
   height: 1px;
@@ -223,12 +228,14 @@
   /* Popup section */
   .detail-popup .project-image-container {
     width: 100%;
+    margin: 6px auto;
   }
 
   .detail-popup .project-image-container img {
     width: 80%;
     /* max-width: 200px; */
-    height: 50%;
+    /* height: 50%; */
+    height: 100%;
     max-width: none;
     transition: transform 1s;
   }
