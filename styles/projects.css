@@ -126,7 +126,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  width: 100%;
+  width: 100.9%;
   height: 80vh;
   padding: 1rem;
   background-color: #fff;
@@ -208,7 +208,7 @@
 }
 
 .detail-popup .detail-image-container img {
-  max-width: 1000px;
+  max-width: 800px;
 }
 
 .divider {
@@ -223,6 +223,7 @@
   display: inline-flex;
   gap: 0.75rem;
   padding: 0.25rem 0.5625rem;
+  margin-right: 25px;
 }
 
 .action-container .primary-btn {
@@ -233,6 +234,11 @@
 
 .action-container .primary-btn:hover svg path {
   fill: #fff;
+}
+
+.left-block,
+.right-block .tags {
+  margin-right: 35px;
 }
 
 .project-container-grid .right-block {
@@ -266,8 +272,8 @@
   .project-container-grid {
     width: 95%;
     margin: 2.5rem 0;
-    grid-template-columns: 70% 30%;
-    gap: 2.5rem;
+    grid-template-columns: 65% 35%;
+    gap: 1.7rem;
   }
 
   .projects:hover {
@@ -290,6 +296,7 @@
 
   .detail-popup {
     padding: 1.5rem;
+    width: 100%;
   }
 
   .detail-popup .detail-image-container {
