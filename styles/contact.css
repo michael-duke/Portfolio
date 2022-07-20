@@ -90,7 +90,7 @@
   align-items: center;
   bottom: -45px;
   left: 3px;
-  background-color: rgba(226, 80, 92, 0.9);
+  
   color: white;
   font-size: 12px;
   padding: 8px;
@@ -99,6 +99,14 @@
   transition: opacity 0.15s;
   line-height: 1.5;
   white-space: nowrap;
+}
+.on-success {
+  background-color: #42f578;
+  opacity: 1;
+}
+.on-error {
+  background-color: rgba(226, 80, 92, 0.9);
+  opacity: 1;
 }
 
 /* Media Section for the Footer */
