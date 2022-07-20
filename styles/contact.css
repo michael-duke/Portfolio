@@ -72,12 +72,33 @@
 }
 
 .contact-wrapper .primary-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   border: 0.0625rem solid #fff;
 }
 
 .contact-wrapper .primary-btn:active {
   background-color: #2230d2;
   border: none;
+}
+
+.contact-wrapper button .tooltip{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: -45px;
+  left: 3px;
+  background-color: rgba(226, 80, 92, 0.9);
+  color: white;
+  font-size: 12px;
+  padding: 8px;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  line-height: 1.5;
+  white-space: nowrap;
 }
 
 /* Media Section for the Footer */
@@ -116,5 +137,9 @@
 
   .contact-wrapper .primary-btn {
     align-self: center;
+  }
+
+  .contact-wrapper button .tooltip{
+   left: unset;
   }
 }

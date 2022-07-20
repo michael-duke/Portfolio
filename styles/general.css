@@ -12,6 +12,7 @@ html {
   padding: 0;
   box-sizing: inherit;
   font-family: Poppins, sans-serif;
+  transition-duration: .5s;
 }
 
 body {
