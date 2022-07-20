@@ -84,28 +84,45 @@
   border: none;
 }
 
-.contact-wrapper button .tooltip{
+.contact-wrapper button .tooltip {
   position: absolute;
   display: flex;
   align-items: center;
-  bottom: -45px;
-  left: 3px;
-  
+  gap: 0.5rem;
+  bottom: -2.8125rem;
+  left: 0.1875rem;
   color: white;
-  font-size: 12px;
-  padding: 8px;
-  border-radius: 2px;
-  opacity: 0;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  border-radius: 0.125rem;
+  opacity: 1;
   transition: opacity 0.15s;
   line-height: 1.5;
   white-space: nowrap;
 }
+
 .on-success {
   background-color: #42f578;
+  padding: unset;
   opacity: 1;
 }
+
+.on-success svg {
+  animation: pulse 0.35s both infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.5);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
+
 .on-error {
-  background-color: rgba(226, 80, 92, 0.9);
+  background-color: rgb(226 80 92 / 90%);
   opacity: 1;
 }
 
@@ -147,7 +164,7 @@
     align-self: center;
   }
 
-  .contact-wrapper button .tooltip{
-   left: unset;
+  .contact-wrapper button .tooltip {
+    left: unset;
   }
 }
