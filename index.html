@@ -312,23 +312,26 @@
           that you need built or a project that needs coding. I’d love to help
           with it
         </p>
-        <form action="https://formspree.io/f/xknylwwy" method="POST">
+        <form id="contact-me" action="https://formspree.io/f/xknylwwy" method="POST">
           <input
             type="text"
             name="name"
             placeholder="Name"
-            minlength="8"
+            minlength="5"
             maxlength="30"
-            required
+            
           />
-          <input type="email" name="email" placeholder="Email" required />
+          <input type="text" name="email" placeholder="Email"  />
           <textarea
             name="message"
             placeholder="Write your message here"
             maxlength="500"
-            required
+            
           ></textarea>
-          <button type="submit" class="primary-btn">get in touch</button>
+          <button type="submit" class="primary-btn">
+            get in touch
+            <span class="tooltip" aria-live="polite"></span>
+          </button>
         </form>
       </section>
     </footer>
