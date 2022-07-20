@@ -2,6 +2,7 @@ import { renderMenuModal, resetNavigation } from './nav-mobile.js';
 import { toggleStickyNav, navScrollSpy } from './nav-desktop.js';
 import toggleSkill from './about.js';
 import renderPortfolio from './project.js';
+import validateForm from './form-validation.js';
 
 const mobileMenu = document.getElementById('menu-toggle');
 mobileMenu.onclick = renderMenuModal;
@@ -17,3 +18,6 @@ chevronBtns.forEach((btn, i) => {
   btn.id = `drop-btn-${i + 1}`;
   btn.onclick = toggleSkill;
 });
+
+const form = document.getElementById('contact-me');
+form.addEventListener('submit', validateForm);
