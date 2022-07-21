@@ -20,4 +20,12 @@ const onUpdate = (e) => {
   console.log(formData, 'Form object');
   saveForm();
 };
-export default onUpdate;
+const refreshForm = (form) => {
+  const savedForm = JSON.parse(localStorage.getItem('form'));
+  console.log(savedForm);
+  const { name, email, message } = form.elements;
+  name.value = savedForm.name;
+  email.value = savedForm.email;
+  message.value = savedForm.message;
+};
+export {onUpdate, refreshForm };
