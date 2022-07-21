@@ -3,7 +3,7 @@ import { toggleStickyNav, navScrollSpy } from './nav-desktop.js';
 import toggleSkill from './about.js';
 import renderPortfolio from './project.js';
 import validateForm from './form-validation.js';
-import  { onUpdate, refreshForm } from './storage.js';
+import { onUpdate, refreshForm } from './storage.js';
 
 const mobileMenu = document.getElementById('menu-toggle');
 mobileMenu.onclick = renderMenuModal;
@@ -23,9 +23,18 @@ chevronBtns.forEach((btn, i) => {
 const form = document.getElementById('contact-me');
 form.addEventListener('submit', validateForm);
 
-const {elements:{name,email, message}} = form;
+const {
+  elements: {
+    name, email, message
+  },
+} = form;
 name.onchange = onUpdate;
 email.onchange = onUpdate;
-message.onchange= onUpdate;
+message.onchange = onUpdate;
 
-window.onload= refreshForm(form);
+window.onload = refreshForm(form);
+
+document.addEventListener('DOMContentLoaded', ()=>{
+  console.log(document.querySelector('#portfolio'))
+});
+
