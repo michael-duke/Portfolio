@@ -3,7 +3,7 @@ import { toggleStickyNav, navScrollSpy } from './nav-desktop.js';
 import toggleSkill from './about.js';
 import renderPortfolio from './project.js';
 import validateForm from './form-validation.js';
-import  onUpdate from './storage.js';
+import  { onUpdate, refreshForm } from './storage.js';
 
 const mobileMenu = document.getElementById('menu-toggle');
 mobileMenu.onclick = renderMenuModal;
@@ -28,3 +28,4 @@ name.onchange = onUpdate;
 email.onchange = onUpdate;
 message.onchange= onUpdate;
 
+window.onload= refreshForm(form);
