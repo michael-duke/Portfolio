@@ -15,6 +15,14 @@ function saveForm(formData) {
   localStorage.setItem('form', JSON.stringify(formData));
 }
 
+const resetForm = () => {
+  const alertTooltip = document.querySelector('.tooltip');
+  alertTooltip.classList.remove('on-error');
+  alertTooltip.innerHTML = '';
+  localStorage.removeItem('form');
+};
+
+
 const onUpdate = () => {
   saveForm(setForm());
 };
@@ -29,4 +37,4 @@ const refreshForm = (form) => {
   }
 };
 
-export { onUpdate, refreshForm };
+export { onUpdate, refreshForm, resetForm };

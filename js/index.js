@@ -3,7 +3,7 @@ import { toggleStickyNav, navScrollSpy } from './nav-desktop.js';
 import toggleSkill from './about.js';
 import renderPortfolio from './project.js';
 import validateForm from './form-validation.js';
-import { onUpdate, refreshForm } from './storage.js';
+import { onUpdate, refreshForm, resetForm } from './storage.js';
 
 const mobileMenu = document.getElementById('menu-toggle');
 mobileMenu.onclick = renderMenuModal;
@@ -25,16 +25,15 @@ form.addEventListener('submit', validateForm);
 
 const {
   elements: {
-    name, email, message
+    name, email, message, reset
   },
 } = form;
 name.onchange = onUpdate;
 email.onchange = onUpdate;
 message.onchange = onUpdate;
+reset.onclick = resetForm;
 
 window.onload = refreshForm(form);
 
-document.addEventListener('DOMContentLoaded', ()=>{
-  console.log(document.querySelector('#portfolio'))
-});
+
 
