@@ -22,6 +22,7 @@ const validateForm = (event) => {
     || email === undefined
   ) {
     alertTooltip.innerHTML = '* Make sure you fill your email and that it is in lower case.';
+    alertTooltip.classList.add('on-error');
     alertTooltip.style.opacity = 1;
   } else if (!isValidEmail(email)) {
     alertTooltip.innerHTML = '* Make sure to provide a valid email.';
