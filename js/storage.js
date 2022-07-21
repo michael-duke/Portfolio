@@ -22,7 +22,6 @@ const resetForm = () => {
   localStorage.removeItem('form');
 };
 
-
 const onUpdate = () => {
   saveForm(setForm());
 };

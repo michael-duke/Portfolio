@@ -25,7 +25,7 @@ form.addEventListener('submit', validateForm);
 
 const {
   elements: {
-    name, email, message, reset
+    name, email, message, reset,
   },
 } = form;
 name.onchange = onUpdate;
@@ -34,6 +34,3 @@ message.onchange = onUpdate;
 reset.onclick = resetForm;
 
 window.onload = refreshForm(form);
-
-
-
