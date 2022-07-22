@@ -19,7 +19,6 @@ const resetForm = () => {
   const alertTooltip = document.querySelector('.tooltip');
   alertTooltip.classList.remove('on-error');
   alertTooltip.innerHTML = '';
-  localStorage.removeItem('form');
 };
 
 const onUpdate = () => {

@@ -165,7 +165,7 @@ const onPopup = (e) => {
     target: { id },
   } = e;
   const prjId = +id.slice(-1);
-  renderPopup(projectList[prjId - 1]);
+  renderPopup(projectList[prjId]);
 };
 
 export default onPopup;
