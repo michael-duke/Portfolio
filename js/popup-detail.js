@@ -3,6 +3,7 @@ import projectList from './project-list.js';
 const closePopup = () => {
   const modal = document.querySelector('.detail-backdrop');
   const popup = modal.querySelector('.detail-popup');
+  document.body.style.overflow = 'unset';
   popup.classList.toggle('on-popup-close');
   setTimeout(() => {
     modal.remove();
@@ -156,6 +157,7 @@ function renderPopup(projectInfo) {
   modal.appendChild(projectContainerGrid);
   modalBackdrop.appendChild(modal);
   document.body.appendChild(modalBackdrop);
+  document.body.style.overflow = 'hidden';
 }
 
 const onPopup = (e) => {
