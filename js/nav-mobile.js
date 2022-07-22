@@ -12,6 +12,7 @@ const closeMenuModal = () => {
   header.style.filter = '';
   main.style.filter = '';
   footer.style.filter = '';
+  document.body.style.overflow = 'unset';
 };
 
 function renderMenuModal() {
@@ -56,6 +57,7 @@ function renderMenuModal() {
   header.style.filter = 'blur(6px)';
   main.style.filter = 'blur(6px)';
   footer.style.filter = 'blur(6px)';
+  document.body.style.overflow = 'hidden';
 }
 
 const resetNavigation = () => {
