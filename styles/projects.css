@@ -41,7 +41,6 @@
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.75rem;
-  width: 65%;
   color: #172b4d;
 }
 
@@ -261,6 +260,10 @@
     justify-content: center;
   }
 
+  .project-title {
+    width: 65%;
+  }
+
   .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -314,7 +317,7 @@
   /* Replacing all the project images */
 
   .projects:nth-child(1) img {
-    content: url("../images/snapshoot-portfolio-1.png");
+    content: url("../images/snapshoot-portfolio-1.jpg");
   }
 
   .projects:nth-child(2) img {
@@ -322,7 +325,7 @@
   }
 
   .projects:nth-child(3) img {
-    content: url("../images/snapshoot-portfolio-3.png");
+    content: url("../images/snapshoot-portfolio-3.jpg");
   }
 
   .projects:nth-child(4) img {
@@ -330,7 +333,7 @@
   }
 
   #popup-prj-1 img {
-    content: url("../images/snapshoot-portfolio-1.png");
+    content: url("../images/snapshoot-portfolio-1.jpg");
   }
 
   #popup-prj-2 img {
@@ -338,7 +341,7 @@
   }
 
   #popup-prj-3 img {
-    content: url("../images/snapshoot-portfolio-3.png");
+    content: url("../images/snapshoot-portfolio-3.jpg");
   }
 
   #popup-prj-4 img {
