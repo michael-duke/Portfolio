@@ -10,7 +10,7 @@
 
 ## Built With
 
-- HTML5, CSS3
+- HTML5, CSS3, JavaScript
 - Linters: Stylelint, Lighthouse, Webhint
 - Figma [Template 1](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=1%3A468)
 
@@ -29,7 +29,7 @@
 
 - GitHub: [@michael-duke](https://github.com/michael-duke)
 - Twitter: [@MikeDuke21](https://twitter.com/MikeDuke21)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/https://www.linkedin.com/in/michael-21-duke/)
+- LinkedIn: [MICHAEL MESFIN](https://linkedin.com/in/https://www.linkedin.com/in/michael-21-duke/)
 
 ## 🤝 Contributing
 

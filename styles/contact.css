@@ -84,6 +84,10 @@
   border: none;
 }
 
+.contact-wrapper .action-container {
+  gap: 1.25rem;
+}
+
 .contact-wrapper button .tooltip {
   position: absolute;
   display: flex;

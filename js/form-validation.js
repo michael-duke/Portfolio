@@ -18,10 +18,11 @@ const validateForm = (event) => {
     alertTooltip.classList.add('on-error');
   } else if (
     email !== email.toLowerCase()
-    || email < 1
+    || email.length < 1
     || email === undefined
   ) {
     alertTooltip.innerHTML = '* Make sure you fill your email and that it is in lower case.';
+    alertTooltip.classList.add('on-error');
     alertTooltip.style.opacity = 1;
   } else if (!isValidEmail(email)) {
     alertTooltip.innerHTML = '* Make sure to provide a valid email.';
