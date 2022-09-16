@@ -13,8 +13,8 @@ const projectList = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     projectDetail: {
       client: 'canopy',
-      role: 'back end dev',
-      year: 2015,
+      role: 'front end dev',
+      year: 2022,
     },
     link: {
       source: 'https://github.com/michael-duke/Capstone-I',
@@ -35,8 +35,8 @@ const projectList = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     projectDetail: {
       client: 'canopy',
-      role: 'back end dev',
-      year: 2015,
+      role: 'front end dev',
+      year: 2022,
     },
     link: {
       source: 'https://github.com/michael-duke/Awesome-Books',
@@ -58,7 +58,7 @@ const projectList = [
     projectDetail: {
       client: 'canopy',
       role: 'back end dev',
-      year: 2015,
+      year: 2022,
     },
     link: {
       source: 'https://github.com/michael-duke/Micro-Tasks',
@@ -67,24 +67,24 @@ const projectList = [
   },
   {
     id: 4,
-    title: 'multi-post stories',
+    title: 'Gamify',
     featuredImage: {
-      url: 'images/snapshoot-project-4.png',
+      url: 'images/snapshoot-project-4.jpg',
       alt: 'snapshoot-project-3',
     },
     description: {
-      less: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      less: 'This JavaScript capstone project is built on the FreeToGame API, an external API, and Microverse\'s in-house Involvement API. The cards display the game information that was retrieved from the API. The user has the option to like and comment on the game cards.',
       more: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
     },
     technologies: ['HTML', 'CSS', 'JavaScript'],
     projectDetail: {
       client: 'canopy',
-      role: 'back end dev',
-      year: 2015,
+      role: 'fullstack dev',
+      year: 2022,
     },
     link: {
-      source: '',
-      live: '',
+      source: 'https://github.com/michael-duke/Capstone-II',
+      live: 'https://michael-duke.github.io/Capstone-II/',
     },
   },
 ];

@@ -336,7 +336,7 @@
   }
 
   .projects:nth-child(4) img {
-    content: url("../images/snapshoot-portfolio-4.png");
+    content: url("../images/snapshoot-portfolio-4.jpg");
   }
 
   #popup-prj-1 img {
@@ -352,7 +352,7 @@
   }
 
   #popup-prj-4 img {
-    content: url("../images/snapshoot-portfolio-4.png");
+    content: url("../images/snapshoot-portfolio-4.jpg");
   }
 
   .project-container {
