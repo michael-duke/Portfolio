@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael-Mesfin | Portfolio</title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="icons/favicon/apple-touch-icon.png"
-    />
+      href="icons/favicon/apple-touch-icon.png">
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="icons/favicon/favicon-32x32.png"
-    />
+      href="icons/favicon/favicon-32x32.png">
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="icons/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="icons/favicon/site.webmanifest" />
+      href="icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon/site.webmanifest">
 
-    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
 
     <script type="module" src="js/index.js"></script>
   </head>
@@ -34,7 +31,7 @@
       <div class="toolbar-containter">
         <div class="logo-container">
           <a href="#headline">
-            <img src="icons/react-icon.gif" alt="react-icon-gif" />
+            <img src="icons/react-icon.gif" alt="react-icon-gif">
           </a>
         </div>
         <nav class="menu-btn-container">
@@ -47,8 +44,7 @@
             id="menu-toggle"
             class="hamburger-menu"
             src="icons/menu-icon.svg"
-            alt="menu-icon"
-          />
+            alt="menu-icon">
         </nav>
       </div>
       <h1 class="title">I’m Michael Glad to see you!</h1>
@@ -245,7 +241,8 @@
               </li>
             </ul>
           </div>
-          <button type="button" class="primary-btn">Get my resume</button>
+            <a class="primary-btn" rel="noopener" href="https://drive.google.com/file/d/1IFR6d-l6oFifkEhQptS_-A0J8Mip394U/view?usp=sharing"
+            target="_blank">Get my resume</a>
         </article>
 
         <article class="skills-section">
@@ -253,58 +250,55 @@
           <div class="skill-label-container">
             <p class="label">languages</p>
             <button type="button" id="drop-btn" class="skill-drop-btn">
-              <img src="icons/chevron-right-icon.svg" alt="chevron-right-icon" />
+              <img src="icons/chevron-right-icon.svg" alt="chevron-right-icon">
             </button>
           </div>
           <ul class="skill-list">
             <li>
-              <img src="images/html-logo.webp" alt="html-logo" />
+              <img src="images/html-logo.webp" alt="html-logo">
               <span>HTML</span>
             </li>
             <li>
-              <img src="images/css-logo.png" alt="css-logo" />
+              <img src="images/css-logo.png" alt="css-logo">
               <span>CSS</span>
             </li>
             <li>
-              <img src="images/javascript-logo.svg" alt="javascript-logo" />
+              <img src="images/javascript-logo.svg" alt="javascript-logo">
               <span>JavaScript</span>
             </li>
           </ul>
           <div class="skill-label-container">
             <p class="label">frameworks</p>
             <button type="button" class="skill-drop-btn">
-              <img src="icons/chevron-right-icon.svg" alt="chevron-right-icon" />
+              <img src="icons/chevron-right-icon.svg" alt="chevron-right-icon">
             </button>
           </div>
-          <ul class="skill-list">
+          <ul class="skill-list frameworks">
             <li>
-              <img src="images/laravel-logo.webp" alt="laravel-logo" />
+              <img src="images/laravel-logo.webp" alt="laravel-logo">
               <span>Laravel</span>
             </li>
             <li>
-              <img src="images/rails-logo.png" alt="rails-logo" />
+              <img src="images/rails-logo.png" alt="rails-logo">
               <span>Rails</span>
             </li>
             <li>
-              <img src="images/nodejs-logo.svg" alt="javascript-logo" />
+              <img src="images/nodejs-logo.svg" alt="nodejs-logo">
               <span>Node</span>
             </li>
             <li>
-              <img src="images/react-logo.svg" alt="javascript-logo" />
+              <img src="images/redux.svg" alt="redux-logo">
+              <span>Redux</span>
+            </li>
+            <li>
+              <img src="images/react-logo.svg" alt="react-logo">
               <span>React</span>
             </li>
             <li>
-              <img src="images/tailwindcss.png" alt="tailwindcss-logo" />
+              <img src="images/tailwindcss.png" alt="tailwindcss-logo">
               <span>Tailwind CSS</span>
             </li>
           </ul>
-          <div class="skill-label-container">
-            <p class="label">skils</p>
-            <button type="button" class="skill-drop-btn">
-              <img src="icons/chevron-right-icon.svg" alt="chevron-right-icon" />
-            </button>
-          </div>
-          <ul class="skill-list"></ul>
         </article>
       </section>
     </main>
@@ -323,20 +317,20 @@
             placeholder="Name"
             minlength="5"
             maxlength="30"
-          />
-          <input type="text" name="email" placeholder="Email"/>
+          >
+          <input type="text" name="email" placeholder="Email">
           <textarea
             name="message"
             placeholder="Write your message here"
             maxlength="500"
           ></textarea>
           <div class="action-container">
+            <button type="reset" name="reset" class="primary-btn">
+              clear form
+            </button>
             <button type="submit" class="primary-btn">
               get in touch
               <span class="tooltip" aria-live="polite"></span>
-            </button>
-            <button type="reset" name="reset" class="primary-btn">
-              reset
             </button>
           </div>
         </form>
