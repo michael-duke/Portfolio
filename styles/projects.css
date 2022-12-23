@@ -81,6 +81,7 @@
 
 .tags {
   display: inline-flex;
+  flex-wrap: wrap;
   list-style-type: none;
   gap: 0.5rem;
 }
@@ -339,6 +340,14 @@
     content: url("../images/snapshoot-portfolio-4.jpg");
   }
 
+  .projects:nth-child(5) img {
+    content: url("../images/snapshoot-portfolio-5.png");
+  }
+
+  .projects:nth-child(6) img {
+    content: url("../images/snapshoot-portfolio-6.png");
+  }
+
   #popup-prj-1 img {
     content: url("../images/snapshoot-portfolio-1.jpg");
   }
@@ -353,6 +362,14 @@
 
   #popup-prj-4 img {
     content: url("../images/snapshoot-portfolio-4.jpg");
+  }
+
+  #popup-prj-5 img {
+    content: url("../images/snapshoot-portfolio-5.png");
+  }
+
+  #popup-prj-6 img {
+    content: url("../images/snapshoot-portfolio-6.png");
   }
 
   .project-container {
