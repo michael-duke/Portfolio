@@ -308,7 +308,8 @@
 
   .detail-popup .detail-image-container img {
     width: 100%;
-    max-width: unset;
+    max-width: 700px;
+    border-radius: 10px;
   }
 
   .project-container-grid {
@@ -348,6 +349,10 @@
     content: url("../images/snapshoot-portfolio-6.png");
   }
 
+  .projects:nth-child(7) img {
+    content: url("../images/snapshoot-portfolio-7.png");
+  }
+
   #popup-prj-1 img {
     content: url("../images/snapshoot-portfolio-1.jpg");
   }
@@ -370,6 +375,10 @@
 
   #popup-prj-6 img {
     content: url("../images/snapshoot-portfolio-6.png");
+  }
+
+  #popup-prj-7 img {
+    content: url("../images/snapshoot-portfolio-7.png");
   }
 
   .project-container {

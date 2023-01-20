@@ -112,6 +112,7 @@
 .frameworks li:nth-child(4) img {
   border-radius: 0%;
 }
+
 /* Media Section for the About-section */
 
 @media (min-width: 48rem) {
