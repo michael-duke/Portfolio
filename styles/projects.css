@@ -102,6 +102,42 @@
   margin: 0.75rem 0;
 }
 
+.project-links-container {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.project-links-container .primary-btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 8px 12px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  cursor: pointer;
+}
+
+.action-container .primary-btn {
+  display: flex;
+  gap: 0.875rem;
+  align-items: center;
+}
+
+.project-links-container .primary-btn svg {
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-links-container .primary-btn:hover {
+  transform: scale(1.21);
+}
+
+.project-links-container .primary-btn:hover svg path {
+  fill: #fff;
+}
+
 /* Project Detail Popup section */
 .detail-backdrop {
   position: fixed;
@@ -229,12 +265,6 @@
   flex-wrap: wrap;
   gap: 0.75rem;
   padding: 0.25rem 0.5625rem;
-}
-
-.action-container .primary-btn {
-  display: flex;
-  gap: 0.875rem;
-  align-items: center;
 }
 
 .action-container .primary-btn:hover svg path {

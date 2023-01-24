@@ -84,7 +84,7 @@ const projectList = [
     },
     link: {
       source: 'https://github.com/michael-duke/Capstone-II',
-      live: 'https://michael-duke.github.io/Capstone-II/',
+      live: 'https://gamify-zone.netlify.app/',
     },
   },
   {
