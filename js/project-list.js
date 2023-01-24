@@ -98,7 +98,7 @@ const projectList = [
       less: 'Heroic is a web app that will display a list of random 20 heroes from SuperHero Search API. User can click on a hero card and have all his details in a separate page, and filter by publisher as well.',
       more: 'Heroic is a web app that will display a list of random 20 heroes from SuperHero Search API. User can click on a hero card and have all his details in a separate page, and filter by publisher as well.',
     },
-    technologies: ['HTML', 'Tailwind CSS', 'React', 'Redux', 'React Router','Redux-thunk'],
+    technologies: ['HTML', 'Tailwind CSS', 'React', 'Redux', 'React Router', 'Redux-thunk'],
     projectDetail: {
       client: 'microverse',
       role: 'fullstack dev',
@@ -142,7 +142,7 @@ const projectList = [
       less: 'El Dorado Frontend is a luxury car rental application where the user can register new accounts, login and reserve a set of different cars. Admin user can also create new cars and mark them as available/removed on the list. Built using a connection to two different repos, including Back-end(Rails) and Front-end(React/Redux).',
       more: 'El Dorado Frontend is a luxury car rental application where the user can register new accounts, login and reserve a set of different cars. Admin user can also create new cars and mark them as available/removed on the list. Built using a connection to two different repos, including Back-end(Rails) and Front-end(React/Redux).',
     },
-    technologies: ['Tailwind CSS', 'Ruby', 'Ruby on Rails', 'PostgreSQL', 'React', 'Redux', 'React Router','Redux-toolkit', 'REST API'],
+    technologies: ['Tailwind CSS', 'Ruby', 'Ruby on Rails', 'PostgreSQL', 'React', 'Redux', 'React Router', 'Redux-toolkit', 'REST API'],
     projectDetail: {
       client: 'microverse',
       role: 'fullstack dev',
@@ -150,9 +150,9 @@ const projectList = [
     },
     link: {
       source: 'https://github.com/michael-duke/ElDorado-Frontend',
-      live: 'https://eldorado-rental.netlify.app/',
+      live: 'https://eldorado-rentals.netlify.app/',
     },
-  }
+  },
 ];
 
 export default projectList;
