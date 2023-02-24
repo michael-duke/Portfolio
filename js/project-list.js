@@ -29,8 +29,8 @@ const projectList = [
       alt: 'snapshoot-project-2',
     },
     description: {
-      less: 'This educational project for Microverse Module 2 involves creating a straightforward website that shows a list of books and lets you add and remove books from that list. The intention is to use modules and learn ES6 syntax to make it more orderly. built with JavaScript, CSS and HTML.',
-      more: 'This educational project for Microverse Module 2 involves creating a straightforward website that shows a list of books and lets you add and remove books from that list. The intention is to use modules and learn ES6 syntax to make it more orderly. built with JavaScript, CSS and HTML.',
+      less: 'This educational project for Microverse Module 2 involves creating a straightforward website that shows a list of books and lets you add and remove books from that list. The intention is to use modules and learn ES6 syntax to make it more orderly. Built with JavaScript, CSS and HTML.',
+      more: 'This educational project for Microverse Module 2 involves creating a straightforward website that shows a list of books and lets you add and remove books from that list. The intention is to use modules and learn ES6 syntax to make it more orderly. Built with JavaScript, CSS and HTML.',
     },
     technologies: ['HTML', 'Tailwind CSS', 'JavaScript (ES6)'],
     projectDetail: {
