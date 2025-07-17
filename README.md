@@ -22,14 +22,14 @@
 ![screenshot](https://user-images.githubusercontent.com/84629565/177396249-ed0a871b-af80-4b74-a0df-4ee102afd439.png)
 ## Live Demo
 
-[Michael's Portfolio](https://michael-duke.github.io/Portfolio/)
+[Michael's Portfolio](https://michael-mesfin-porfolio.netlify.app/)
 ## Authors
 
 👤 **Michael Mesfin**
 
 - GitHub: [@michael-duke](https://github.com/michael-duke)
-- Twitter: [@MikeDuke21](https://twitter.com/MikeDuke21)
-- LinkedIn: [MICHAEL MESFIN](https://linkedin.com/in/https://www.linkedin.com/in/michael-21-duke/)
+- Twitter: [@michael_duke21](https://twitter.com/michael_duke21)
+- LinkedIn: [MICHAEL MESFIN](https://linkedin.com/in/https://www.linkedin.com/in/michael-mesfin-haileyesus/)
 
 ## 🤝 Contributing
 
