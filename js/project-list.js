@@ -18,7 +18,7 @@ const projectList = [
     },
     link: {
       source: 'https://github.com/michael-duke/Capstone-I',
-      live: 'https://michael-duke.github.io/Capstone-I/',
+      live: 'https://africa-music-conference.netlify.app/',
     },
   },
   {
@@ -40,7 +40,7 @@ const projectList = [
     },
     link: {
       source: 'https://github.com/michael-duke/Awesome-Books',
-      live: 'https://michael-duke.github.io/Awesome-Books/',
+      live: 'https://awesome-books-project.netlify.app/',
     },
   },
   {
@@ -62,7 +62,7 @@ const projectList = [
     },
     link: {
       source: 'https://github.com/michael-duke/Micro-Tasks',
-      live: 'https://michael-duke.github.io/Micro-Tasks/',
+      live: 'https://micro-tasks.netlify.app/',
     },
   },
   {
