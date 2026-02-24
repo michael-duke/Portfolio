@@ -13,19 +13,6 @@
   transition: background-color 0.58s ease-out;
 }
 
-.logo-container a > * {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 4rem;
-  padding: 0.625rem 0.75rem;
-  font-weight: 700;
-  font-size: 1.125rem;
-  line-height: 1.25rem;
-  cursor: pointer;
-}
-
 .hamburger-menu {
   position: relative;
   cursor: pointer;
