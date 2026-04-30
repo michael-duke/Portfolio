@@ -4,9 +4,9 @@ import { X, ArrowUpRight } from 'lucide-react';
 
 export default function ContactOverlay({ isOpen, onClose }) {
   const links = [
-    { title: 'LinkedIn', url: 'https://www.linkedin.com/in/michael-mesfin/' },
-    { title: 'GitHub', url: 'https://github.com/Michael-Mesfin' },
-    { title: 'Email', url: 'mailto:michaelmesfin@outlook.com' },
+    { title: 'LinkedIn', url: 'https://www.linkedin.com/in/michael-mes/' },
+    { title: 'GitHub', url: 'https://github.com/michael-duke' },
+    { title: 'Email', url: 'mailto:michael.21duke@gmail.com' },
     {
       title: 'Resume',
       url: 'https://drive.google.com/file/d/1RSfEotJG_j-jsXpuBxuSGJaQlONHgsM8/view',
