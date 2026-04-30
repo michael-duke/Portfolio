@@ -4,7 +4,7 @@ import { ArrowUpRight } from 'lucide-react';
 
 export default function Footer({ onContactOpen }) {
   return (
-    <footer className="bg-background py-24 md:py-48">
+    <footer id="contact" className="bg-background py-24 md:py-48">
       <div className="mx-auto max-w-5xl px-6">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
