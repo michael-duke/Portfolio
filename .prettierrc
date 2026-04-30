@@ -3,6 +3,7 @@
   "tailwindFunctions": ["clsx", "cn"],
   "tailwindStylesheet": "./src/index.css",
   "singleQuote": true,
+  "endOfLine": "auto",
   "semi": true,
   "tabWidth": 2
 }
