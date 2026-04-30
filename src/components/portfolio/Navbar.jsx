@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { cn } from '@/lib/utils';
 
 const navLinks = [
   { label: 'Work', href: '#work' },
@@ -52,7 +53,10 @@ export default function Navbar() {
                 variant="outline"
                 key={link.label}
                 onClick={() => scrollTo(link.href)}
-                className="min-h-11 rounded-full px-4 py-2 text-sm text-ink-light transition-colors duration-200 hover:bg-cream-dark hover:text-ink"
+                className={cn(
+                  'min-h-11 rounded-full px-4 py-2 text-sm text-ink-light transition-colors duration-200 hover:bg-cream-dark hover:text-ink',
+                  link.label === 'Contact' && 'hidden',
+                )}
               >
                 {link.label}
               </Button>
