@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '@/components/portfolio/Navbar';
 import Hero from '@/components/portfolio/Hero';
 import WorkGallery from '@/components/portfolio/WorkGallery';
@@ -10,6 +10,10 @@ import CustomCursor from '@/components/portfolio/CustomCursor';
 
 export default function Home() {
   const [contactOpen, setContactOpen] = useState(false);
+
+  useEffect(() => {
+    document.title = 'Portfolio | Michael Mesfin';
+  }, []);
 
   return (
     <div className="min-h-screen bg-background text-foreground">

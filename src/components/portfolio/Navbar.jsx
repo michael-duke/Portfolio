@@ -41,7 +41,7 @@ export default function Navbar() {
           <Button
             variant="outline"
             onClick={() => scrollTo('#hero')}
-            className="text-sm font-semibold tracking-tight text-ink"
+            className="border-none text-sm font-semibold tracking-tight text-ink"
           >
             Michael Mesfin
           </Button>
